@@ -1,0 +1,96 @@
+# Безопасность - НЕ ПУШИТЬ
+.env
+.env.local
+.env.production
+.env.staging
+config.py
+secrets.py
+credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# ВРЕМЕННО РАЗРЕШЕНО ДЛЯ ЗАГРУЗКИ:
+# Базы данных - РАЗРЕШЕНО
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# Логи - РАЗРЕШЕНО  
+# *.log
+# logs/
+
+# Данные - РАЗРЕШЕНО
+# data_collection/*/models_data_*.json
+# data_collection/*/datasets_data_*.json
+# data_collection/*/papers_data_*.json
+# data_collection/*/benchmarks_data_*.json
+# data_collection/*/collection_summary_*.json
+# data_collection/*/collection_log.txt
+
+# Результаты анализа - РАЗРЕШЕНО
+# analysis_log_*.txt
+# *.png
+# *.html
+# *.pdf
+
