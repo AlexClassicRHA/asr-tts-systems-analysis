@@ -1,0 +1,46 @@
+[
+  {
+    "dataset_name": "LibriSpeech",
+    "description": "Large-scale English speech recognition corpus",
+    "size_hours": 1000,
+    "size_gb": 60,
+    "language": "en",
+    "license": "CC BY 4.0",
+    "source": "openslr",
+    "url": "https://openslr.org/12/",
+    "dataset_type": "speech"
+  },
+  {
+    "dataset_name": "Common Voice",
+    "description": "Multilingual speech dataset",
+    "size_hours": 14000,
+    "size_gb": 1000,
+    "language": "multilingual",
+    "license": "CC0",
+    "source": "openslr",
+    "url": "https://openslr.org/70/",
+    "dataset_type": "speech"
+  },
+  {
+    "dataset_name": "VoxForge",
+    "description": "Accented speech recognition dataset",
+    "size_hours": 100,
+    "size_gb": 5,
+    "language": "en",
+    "license": "GPL",
+    "source": "openslr",
+    "url": "https://openslr.org/7/",
+    "dataset_type": "speech"
+  },
+  {
+    "dataset_name": "TED-LIUM",
+    "description": "English speech recognition from TED talks",
+    "size_hours": 452,
+    "size_gb": 25,
+    "language": "en",
+    "license": "CC BY-NC-ND 3.0",
+    "source": "openslr",
+    "url": "https://openslr.org/51/",
+    "dataset_type": "speech"
+  }
+]

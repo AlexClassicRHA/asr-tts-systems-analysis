@@ -1,0 +1,1418 @@
+[
+  {
+    "paper_title": "Large Vocabulary Spontaneous Speech Recognition for Tigrigna",
+    "arxiv_link": "http://arxiv.org/abs/2402.04254v1",
+    "arxiv_id": "2402.04254v1",
+    "publication_year": 2023,
+    "authors": [
+      "Ataklti Kahsu",
+      "Solomon Teferra"
+    ],
+    "summary": "This thesis proposes and describes a research attempt at designing and\ndeveloping a speaker independent spontaneous automatic speech recognition\nsystem for Tigrigna The acoustic model of the Speech Recognition System is\ndeveloped using Carnegie Mellon University Automatic Speech Recognition\ndevelopment tool (Sphinx) while the SRIM tool is used for the development of\nthe language model.\n  Keywords Automatic Speech Recognition Tigrigna language",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Large Vocabulary Spontaneous"
+  },
+  {
+    "paper_title": "Objective and Subjective Evaluation of Diffusion-Based Speech\n  Enhancement for Dysarthric Speech",
+    "arxiv_link": "http://arxiv.org/abs/2508.17980v1",
+    "arxiv_id": "2508.17980v1",
+    "publication_year": 2025,
+    "authors": [
+      "Dimme de Groot",
+      "Tanvina Patel",
+      "Devendra Kayande",
+      "Odette Scharenborg",
+      "Zhengjun Yue"
+    ],
+    "summary": "Dysarthric speech poses significant challenges for automatic speech\nrecognition (ASR) systems due to its high variability and reduced\nintelligibility. In this work we explore the use of diffusion models for\ndysarthric speech enhancement, which is based on the hypothesis that using\ndiffusion-based speech enhancement moves the distribution of dysarthric speech\ncloser to that of typical speech, which could potentially improve dysarthric\nspeech recognition performance. We assess the effect of two diffusion-based and\none signal-processing-based speech enhancement algorithms on intelligibility\nand speech quality of two English dysarthric speech corpora. We applied speech\nenhancement to both typical and dysarthric speech and evaluate the ASR\nperformance using Whisper-Turbo, and the subjective and objective speech\nquality of the original and enhanced dysarthric speech. We also fine-tuned\nWhisper-Turbo on the enhanced speech to assess its impact on recognition\nperformance.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Objective and Subjective"
+  },
+  {
+    "paper_title": "Speech Enhancement Modeling Towards Robust Speech Recognition System",
+    "arxiv_link": "http://arxiv.org/abs/1305.1426v1",
+    "arxiv_id": "1305.1426v1",
+    "publication_year": 2013,
+    "authors": [
+      "Urmila Shrawankar",
+      "V. M. Thakare"
+    ],
+    "summary": "Form about four decades human beings have been dreaming of an intelligent\nmachine which can master the natural speech. In its simplest form, this machine\nshould consist of two subsystems, namely automatic speech recognition (ASR) and\nspeech understanding (SU). The goal of ASR is to transcribe natural speech\nwhile SU is to understand the meaning of the transcription. Recognizing and\nunderstanding a spoken sentence is obviously a knowledge-intensive process,\nwhich must take into account all variable information about the speech\ncommunication process, from acoustics to semantics and pragmatics. While\ndeveloping an Automatic Speech Recognition System, it is observed that some\nadverse conditions degrade the performance of the Speech Recognition System. In\nthis contribution, speech enhancement system is introduced for enhancing speech\nsignals corrupted by additive noise and improving the performance of Automatic\nSpeech Recognizers in noisy conditions. Automatic speech recognition\nexperiments show that replacing noisy speech signals by the corresponding\nenhanced speech signals leads to an improvement in the recognition accuracies.\nThe amount of improvement varies with the type of the corrupting noise.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Speech Enhancement Modeling"
+  },
+  {
+    "paper_title": "Silent versus modal multi-speaker speech recognition from ultrasound and\n  video",
+    "arxiv_link": "http://arxiv.org/abs/2103.00333v1",
+    "arxiv_id": "2103.00333v1",
+    "publication_year": 2021,
+    "authors": [
+      "Manuel Sam Ribeiro",
+      "Aciel Eshky",
+      "Korin Richmond",
+      "Steve Renals"
+    ],
+    "summary": "We investigate multi-speaker speech recognition from ultrasound images of the\ntongue and video images of the lips. We train our systems on imaging data from\nmodal speech, and evaluate on matched test sets of two speaking modes: silent\nand modal speech. We observe that silent speech recognition from imaging data\nunderperforms compared to modal speech recognition, likely due to a\nspeaking-mode mismatch between training and testing. We improve silent speech\nrecognition performance using techniques that address the domain mismatch, such\nas fMLLR and unsupervised model adaptation. We also analyse the properties of\nsilent and modal speech in terms of utterance duration and the size of the\narticulatory space. To estimate the articulatory space, we compute the convex\nhull of tongue splines, extracted from ultrasound tongue images. Overall, we\nobserve that the duration of silent speech is longer than that of modal speech,\nand that silent speech covers a smaller articulatory space than modal speech.\nAlthough these two properties are statistically significant across speaking\nmodes, they do not directly correlate with word error rates from speech\nrecognition.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Silent versus modal"
+  },
+  {
+    "paper_title": "Augmenting Polish Automatic Speech Recognition System With Synthetic\n  Data",
+    "arxiv_link": "http://arxiv.org/abs/2410.22903v1",
+    "arxiv_id": "2410.22903v1",
+    "publication_year": 2024,
+    "authors": [
+      "Łukasz Bondaruk",
+      "Jakub Kubiak",
+      "Mateusz Czyżnikiewicz"
+    ],
+    "summary": "This paper presents a system developed for submission to Poleval 2024, Task\n3: Polish Automatic Speech Recognition Challenge. We describe Voicebox-based\nspeech synthesis pipeline and utilize it to augment Conformer and Whisper\nspeech recognition models with synthetic data. We show that addition of\nsynthetic speech to training improves achieved results significantly. We also\npresent final results achieved by our models in the competition.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Augmenting Polish Automatic"
+  },
+  {
+    "paper_title": "Evaluating Gammatone Frequency Cepstral Coefficients with Neural\n  Networks for Emotion Recognition from Speech",
+    "arxiv_link": "http://arxiv.org/abs/1806.09010v1",
+    "arxiv_id": "1806.09010v1",
+    "publication_year": 2018,
+    "authors": [
+      "Gabrielle K. Liu"
+    ],
+    "summary": "Current approaches to speech emotion recognition focus on speech features\nthat can capture the emotional content of a speech signal. Mel Frequency\nCepstral Coefficients (MFCCs) are one of the most commonly used representations\nfor audio speech recognition and classification. This paper proposes Gammatone\nFrequency Cepstral Coefficients (GFCCs) as a potentially better representation\nof speech signals for emotion recognition. The effectiveness of MFCC and GFCC\nrepresentations are compared and evaluated over emotion and intensity\nclassification tasks with fully connected and recurrent neural network\narchitectures. The results provide evidence that GFCCs outperform MFCCs in\nspeech emotion recognition.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Evaluating Gammatone Frequency"
+  },
+  {
+    "paper_title": "Speech Recognition with Augmented Synthesized Speech",
+    "arxiv_link": "http://arxiv.org/abs/1909.11699v1",
+    "arxiv_id": "1909.11699v1",
+    "publication_year": 2019,
+    "authors": [
+      "Andrew Rosenberg",
+      "Yu Zhang",
+      "Bhuvana Ramabhadran",
+      "Ye Jia",
+      "Pedro Moreno",
+      "Yonghui Wu",
+      "Zelin Wu"
+    ],
+    "summary": "Recent success of the Tacotron speech synthesis architecture and its variants\nin producing natural sounding multi-speaker synthesized speech has raised the\nexciting possibility of replacing expensive, manually transcribed,\ndomain-specific, human speech that is used to train speech recognizers. The\nmulti-speaker speech synthesis architecture can learn latent embedding spaces\nof prosody, speaker and style variations derived from input acoustic\nrepresentations thereby allowing for manipulation of the synthesized speech. In\nthis paper, we evaluate the feasibility of enhancing speech recognition\nperformance using speech synthesis using two corpora from different domains. We\nexplore algorithms to provide the necessary acoustic and lexical diversity\nneeded for robust speech recognition. Finally, we demonstrate the feasibility\nof this approach as a data augmentation strategy for domain-transfer.\n  We find that improvements to speech recognition performance is achievable by\naugmenting training data with synthesized material. However, there remains a\nsubstantial gap in performance between recognizers trained on human speech\nthose trained on synthesized speech.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Speech Recognition with"
+  },
+  {
+    "paper_title": "Enhancing Indonesian Automatic Speech Recognition: Evaluating\n  Multilingual Models with Diverse Speech Variabilities",
+    "arxiv_link": "http://arxiv.org/abs/2410.08828v2",
+    "arxiv_id": "2410.08828v2",
+    "publication_year": 2024,
+    "authors": [
+      "Aulia Adila",
+      "Dessi Lestari",
+      "Ayu Purwarianti",
+      "Dipta Tanaya",
+      "Kurniawati Azizah",
+      "Sakriani Sakti"
+    ],
+    "summary": "An ideal speech recognition model has the capability to transcribe speech\naccurately under various characteristics of speech signals, such as speaking\nstyle (read and spontaneous), speech context (formal and informal), and\nbackground noise conditions (clean and moderate). Building such a model\nrequires a significant amount of training data with diverse speech\ncharacteristics. Currently, Indonesian data is dominated by read, formal, and\nclean speech, leading to a scarcity of Indonesian data with other speech\nvariabilities. To develop Indonesian automatic speech recognition (ASR), we\npresent our research on state-of-the-art speech recognition models, namely\nMassively Multilingual Speech (MMS) and Whisper, as well as compiling a dataset\ncomprising Indonesian speech with variabilities to facilitate our study. We\nfurther investigate the models' predictive ability to transcribe Indonesian\nspeech data across different variability groups. The best results were achieved\nby the Whisper fine-tuned model across datasets with various characteristics,\nas indicated by the decrease in word error rate (WER) and character error rate\n(CER). Moreover, we found that speaking style variability affected model\nperformance the most.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Enhancing Indonesian Automatic"
+  },
+  {
+    "paper_title": "AV-CPL: Continuous Pseudo-Labeling for Audio-Visual Speech Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2309.17395v1",
+    "arxiv_id": "2309.17395v1",
+    "publication_year": 2023,
+    "authors": [
+      "Andrew Rouditchenko",
+      "Ronan Collobert",
+      "Tatiana Likhomanenko"
+    ],
+    "summary": "Audio-visual speech contains synchronized audio and visual information that\nprovides cross-modal supervision to learn representations for both automatic\nspeech recognition (ASR) and visual speech recognition (VSR). We introduce\ncontinuous pseudo-labeling for audio-visual speech recognition (AV-CPL), a\nsemi-supervised method to train an audio-visual speech recognition (AVSR) model\non a combination of labeled and unlabeled videos with continuously regenerated\npseudo-labels. Our models are trained for speech recognition from audio-visual\ninputs and can perform speech recognition using both audio and visual\nmodalities, or only one modality. Our method uses the same audio-visual model\nfor both supervised training and pseudo-label generation, mitigating the need\nfor external speech recognition models to generate pseudo-labels. AV-CPL\nobtains significant improvements in VSR performance on the LRS3 dataset while\nmaintaining practical ASR and AVSR performance. Finally, using visual-only\nspeech data, our method is able to leverage unlabeled visual speech to improve\nVSR.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "AV-CPL: Continuous Pseudo-Labeling"
+  },
+  {
+    "paper_title": "Algorithm of Segment-Syllabic Synthesis in Speech Recognition Problem",
+    "arxiv_link": "http://arxiv.org/abs/cs/0703049v1",
+    "arxiv_id": "0703049v1",
+    "publication_year": 2007,
+    "authors": [
+      "Oleg N. Karpov",
+      "Olga A. Savenkova"
+    ],
+    "summary": "Speech recognition based on the syllable segment is discussed in this paper.\nThe principal search methods in space of states for the speech recognition\nproblem by segment-syllabic parameters trajectory synthesis are investigated.\nRecognition as comparison the parameters trajectories in chosen speech units on\nthe sections of the segmented speech is realized. Some experimental results are\ngiven and discussed.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Algorithm of Segment-Syllabic"
+  },
+  {
+    "paper_title": "Speech Recognition with no speech or with noisy speech",
+    "arxiv_link": "http://arxiv.org/abs/1903.00739v1",
+    "arxiv_id": "1903.00739v1",
+    "publication_year": 2019,
+    "authors": [
+      "Gautam Krishna",
+      "Co Tran",
+      "Jianguo Yu",
+      "Ahmed H Tewfik"
+    ],
+    "summary": "The performance of automatic speech recognition systems(ASR) degrades in the\npresence of noisy speech. This paper demonstrates that using\nelectroencephalography (EEG) can help automatic speech recognition systems\novercome performance loss in the presence of noise. The paper also shows that\ndistillation training of automatic speech recognition systems using EEG\nfeatures will increase their performance. Finally, we demonstrate the ability\nto recognize words from EEG with no speech signal on a limited English\nvocabulary with high accuracy.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Speech Recognition with"
+  },
+  {
+    "paper_title": "Data Augmentation with Locally-time Reversed Speech for Automatic Speech\n  Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2110.04511v1",
+    "arxiv_id": "2110.04511v1",
+    "publication_year": 2021,
+    "authors": [
+      "Si-Ioi Ng",
+      "Tan Lee"
+    ],
+    "summary": "Psychoacoustic studies have shown that locally-time reversed (LTR) speech,\ni.e., signal samples time-reversed within a short segment, can be accurately\nrecognised by human listeners. This study addresses the question of how well a\nstate-of-the-art automatic speech recognition (ASR) system would perform on LTR\nspeech. The underlying objective is to explore the feasibility of deploying LTR\nspeech in the training of end-to-end (E2E) ASR models, as an attempt to data\naugmentation for improving the recognition performance. The investigation\nstarts with experiments to understand the effect of LTR speech on\ngeneral-purpose ASR. LTR speech with reversed segment duration of 5 ms - 50 ms\nis rendered and evaluated. For ASR training data augmentation with LTR speech,\ntraining sets are created by combining natural speech with different partitions\nof LTR speech. The efficacy of data augmentation is confirmed by ASR results on\nspeech corpora in various languages and speaking styles. ASR on LTR speech with\nreversed segment duration of 15 ms - 30 ms is found to have lower error rate\nthan with other segment duration. Data augmentation with these LTR speech\nachieves satisfactory and consistent improvement on ASR performance.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Data Augmentation with"
+  },
+  {
+    "paper_title": "Inappropriate Pause Detection In Dysarthric Speech Using Large-Scale\n  Speech Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2402.18923v1",
+    "arxiv_id": "2402.18923v1",
+    "publication_year": 2024,
+    "authors": [
+      "Jeehyun Lee",
+      "Yerin Choi",
+      "Tae-Jin Song",
+      "Myoung-Wan Koo"
+    ],
+    "summary": "Dysarthria, a common issue among stroke patients, severely impacts speech\nintelligibility. Inappropriate pauses are crucial indicators in severity\nassessment and speech-language therapy. We propose to extend a large-scale\nspeech recognition model for inappropriate pause detection in dysarthric\nspeech. To this end, we propose task design, labeling strategy, and a speech\nrecognition model with an inappropriate pause prediction layer. First, we treat\npause detection as speech recognition, using an automatic speech recognition\n(ASR) model to convert speech into text with pause tags. According to the newly\ndesigned task, we label pause locations at the text level and their\nappropriateness. We collaborate with speech-language pathologists to establish\nlabeling criteria, ensuring high-quality annotated data. Finally, we extend the\nASR model with an inappropriate pause prediction layer for end-to-end\ninappropriate pause detection. Moreover, we propose a task-tailored metric for\nevaluating inappropriate pause detection independent of ASR performance. Our\nexperiments show that the proposed method better detects inappropriate pauses\nin dysarthric speech than baselines. (Inappropriate Pause Error Rate: 14.47%)",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Inappropriate Pause Detection"
+  },
+  {
+    "paper_title": "Deep Speech Based End-to-End Automated Speech Recognition (ASR) for\n  Indian-English Accents",
+    "arxiv_link": "http://arxiv.org/abs/2204.00977v1",
+    "arxiv_id": "2204.00977v1",
+    "publication_year": 2022,
+    "authors": [
+      "Priyank Dubey",
+      "Bilal Shah"
+    ],
+    "summary": "Automated Speech Recognition (ASR) is an interdisciplinary application of\ncomputer science and linguistics that enable us to derive the transcription\nfrom the uttered speech waveform. It finds several applications in Military\nlike High-performance fighter aircraft, helicopters, air-traffic controller.\nOther than military speech recognition is used in healthcare, persons with\ndisabilities and many more. ASR has been an active research area. Several\nmodels and algorithms for speech to text (STT) have been proposed. One of the\nmost recent is Mozilla Deep Speech, it is based on the Deep Speech research\npaper by Baidu. Deep Speech is a state-of-art speech recognition system is\ndeveloped using end-to-end deep learning, it is trained using well-optimized\nRecurrent Neural Network (RNN) training system utilizing multiple Graphical\nProcessing Units (GPUs). This training is mostly done using American-English\naccent datasets, which results in poor generalizability to other English\naccents. India is a land of vast diversity. This can even be seen in the\nspeech, there are several English accents which vary from state to state. In\nthis work, we have used transfer learning approach using most recent Deep\nSpeech model i.e., deepspeech-0.9.3 to develop an end-to-end speech recognition\nsystem for Indian-English accents. This work utilizes fine-tuning and data\nargumentation to further optimize and improve the Deep Speech ASR system. Indic\nTTS data of Indian-English accents is used for transfer learning and\nfine-tuning the pre-trained Deep Speech model. A general comparison is made\namong the untrained model, our trained model and other available speech\nrecognition services for Indian-English Accents.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Deep Speech"
+  },
+  {
+    "paper_title": "Improved I-vector-based Speaker Recognition for Utterances with Speaker\n  Generated Non-speech sounds",
+    "arxiv_link": "http://arxiv.org/abs/1705.09289v1",
+    "arxiv_id": "1705.09289v1",
+    "publication_year": 2017,
+    "authors": [
+      "Sri Harsha Dumpala",
+      "Ashish Panda",
+      "Sunil Kumar Kopparapu"
+    ],
+    "summary": "Conversational speech not only contains several variants of neutral speech\nbut is also prominently interlaced with several speaker generated non-speech\nsounds such as laughter and breath. A robust speaker recognition system should\nbe capable of recognizing a speaker irrespective of these variations in his\nspeech. An understanding of whether the speaker-specific information\nrepresented by these variations is similar or not helps build a good speaker\nrecognition system. In this paper, speaker variations captured by neutral\nspeech of a speaker is analyzed by considering speech-laugh (a variant of\nneutral speech) and laughter (non-speech) sounds of the speaker. We study an\ni-vector-based speaker recognition system trained only on neutral speech and\nevaluate its performance on speech-laugh and laughter. Further, we analyze the\neffect of including laughter sounds during training of an i-vector-basedspeaker\nrecognition system. Our experimental results show that the inclusion of\nlaughter sounds during training seem to provide complementary speaker-specific\ninformation which results in an overall improved performance of the speaker\nrecognition system, especially on the utterances with speech-laugh segments.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Improved I-vector-based Speaker"
+  },
+  {
+    "paper_title": "Speech-Driven Text Retrieval: Using Target IR Collections for\n  Statistical Language Model Adaptation in Speech Recognition",
+    "arxiv_link": "http://arxiv.org/abs/cs/0206037v1",
+    "arxiv_id": "0206037v1",
+    "publication_year": 2002,
+    "authors": [
+      "Atsushi Fujii",
+      "Katunobu Itou",
+      "Tetsuya Ishikawa"
+    ],
+    "summary": "Speech recognition has of late become a practical technology for real world\napplications. Aiming at speech-driven text retrieval, which facilitates\nretrieving information with spoken queries, we propose a method to integrate\nspeech recognition and retrieval methods. Since users speak contents related to\na target collection, we adapt statistical language models used for speech\nrecognition based on the target collection, so as to improve both the\nrecognition and retrieval accuracy. Experiments using existing test collections\ncombined with dictated queries showed the effectiveness of our method.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Speech-Driven Text Retrieval:"
+  },
+  {
+    "paper_title": "Speech Synthesis as Augmentation for Low-Resource ASR",
+    "arxiv_link": "http://arxiv.org/abs/2012.13004v1",
+    "arxiv_id": "2012.13004v1",
+    "publication_year": 2020,
+    "authors": [
+      "Deblin Bagchi",
+      "Shannon Wotherspoon",
+      "Zhuolin Jiang",
+      "Prasanna Muthukumar"
+    ],
+    "summary": "Speech synthesis might hold the key to low-resource speech recognition. Data\naugmentation techniques have become an essential part of modern speech\nrecognition training. Yet, they are simple, naive, and rarely reflect\nreal-world conditions. Meanwhile, speech synthesis techniques have been rapidly\ngetting closer to the goal of achieving human-like speech. In this paper, we\ninvestigate the possibility of using synthesized speech as a form of data\naugmentation to lower the resources necessary to build a speech recognizer. We\nexperiment with three different kinds of synthesizers: statistical parametric,\nneural, and adversarial. Our findings are interesting and point to new research\ndirections for the future.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Speech Synthesis as"
+  },
+  {
+    "paper_title": "Impact of Frame Rates on Speech Tokenizer: A Case Study on Mandarin and\n  English",
+    "arxiv_link": "http://arxiv.org/abs/2505.17076v3",
+    "arxiv_id": "2505.17076v3",
+    "publication_year": 2025,
+    "authors": [
+      "Haoyang Zhang",
+      "Hexin Liu",
+      "Xiangyu Zhang",
+      "Qiquan Zhang",
+      "Yuchen Hu",
+      "Junqi Zhao",
+      "Fei Tian",
+      "Xuerui Yang",
+      "Leibny Paola Garcia",
+      "Eng Siong Chng"
+    ],
+    "summary": "The speech tokenizer plays a crucial role in recent speech tasks, generally\nserving as a bridge between speech signals and language models. While\nlow-frame-rate codecs are widely employed as speech tokenizers, the impact of\nframe rates on speech tokens remains underexplored. In this study, we\ninvestigate how varying frame rates affect speech tokenization by examining\nMandarin and English, two typologically distinct languages. We encode speech at\ndifferent frame rates and evaluate the resulting semantic tokens in the speech\nrecognition task. Our findings reveal that frame rate variations influence\nspeech tokenization differently for each language, highlighting the interplay\nbetween frame rates, phonetic density, and language-specific acoustic features.\nThe results provide insights into optimizing frame rate selection for speech\ntokenizers, with implications for automatic speech recognition, text-to-speech,\nand other speech-related applications.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Impact of Frame"
+  },
+  {
+    "paper_title": "Modified Mel Filter Bank to Compute MFCC of Subsampled Speech",
+    "arxiv_link": "http://arxiv.org/abs/1410.7382v1",
+    "arxiv_id": "1410.7382v1",
+    "publication_year": 2014,
+    "authors": [
+      "Kiran Kumar Bhuvanagiri",
+      "Sunil Kumar Kopparapu"
+    ],
+    "summary": "Mel Frequency Cepstral Coefficients (MFCCs) are the most popularly used\nspeech features in most speech and speaker recognition applications. In this\nwork, we propose a modified Mel filter bank to extract MFCCs from subsampled\nspeech. We also propose a stronger metric which effectively captures the\ncorrelation between MFCCs of original speech and MFCC of resampled speech. It\nis found that the proposed method of filter bank construction performs\ndistinguishably well and gives recognition performance on resampled speech\nclose to recognition accuracies on original speech.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Modified Mel Filter"
+  },
+  {
+    "paper_title": "Unified Speech-Text Pre-training for Speech Translation and Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2204.05409v1",
+    "arxiv_id": "2204.05409v1",
+    "publication_year": 2022,
+    "authors": [
+      "Yun Tang",
+      "Hongyu Gong",
+      "Ning Dong",
+      "Changhan Wang",
+      "Wei-Ning Hsu",
+      "Jiatao Gu",
+      "Alexei Baevski",
+      "Xian Li",
+      "Abdelrahman Mohamed",
+      "Michael Auli",
+      "Juan Pino"
+    ],
+    "summary": "We describe a method to jointly pre-train speech and text in an\nencoder-decoder modeling framework for speech translation and recognition. The\nproposed method incorporates four self-supervised and supervised subtasks for\ncross modality learning. A self-supervised speech subtask leverages unlabelled\nspeech data, and a (self-)supervised text to text subtask makes use of abundant\ntext training data. Two auxiliary supervised speech tasks are included to unify\nspeech and text modeling space. Our contribution lies in integrating linguistic\ninformation from the text corpus into the speech pre-training. Detailed\nanalysis reveals learning interference among subtasks. Two pre-training\nconfigurations for speech translation and recognition, respectively, are\npresented to alleviate subtask interference. Our experiments show the proposed\nmethod can effectively fuse speech and text information into one model. It\nachieves between 1.7 and 2.3 BLEU improvement above the state of the art on the\nMuST-C speech translation dataset and comparable WERs to wav2vec 2.0 on the\nLibrispeech speech recognition task.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Unified Speech-Text Pre-training"
+  },
+  {
+    "paper_title": "SAMU-XLSR: Semantically-Aligned Multimodal Utterance-level Cross-Lingual\n  Speech Representation",
+    "arxiv_link": "http://arxiv.org/abs/2205.08180v1",
+    "arxiv_id": "2205.08180v1",
+    "publication_year": 2022,
+    "authors": [
+      "Sameer Khurana",
+      "Antoine Laurent",
+      "James Glass"
+    ],
+    "summary": "We propose the SAMU-XLSR: Semantically-Aligned Multimodal Utterance-level\nCross-Lingual Speech Representation learning framework. Unlike previous works\non speech representation learning, which learns multilingual contextual speech\nembedding at the resolution of an acoustic frame (10-20ms), this work focuses\non learning multimodal (speech-text) multilingual speech embedding at the\nresolution of a sentence (5-10s) such that the embedding vector space is\nsemantically aligned across different languages. We combine state-of-the-art\nmultilingual acoustic frame-level speech representation learning model XLS-R\nwith the Language Agnostic BERT Sentence Embedding (LaBSE) model to create an\nutterance-level multimodal multilingual speech encoder SAMU-XLSR. Although we\ntrain SAMU-XLSR with only multilingual transcribed speech data, cross-lingual\nspeech-text and speech-speech associations emerge in its learned representation\nspace. To substantiate our claims, we use SAMU-XLSR speech encoder in\ncombination with a pre-trained LaBSE text sentence encoder for cross-lingual\nspeech-to-text translation retrieval, and SAMU-XLSR alone for cross-lingual\nspeech-to-speech translation retrieval. We highlight these applications by\nperforming several cross-lingual text and speech translation retrieval tasks\nacross several datasets.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "SAMU-XLSR: Semantically-Aligned Multimodal"
+  },
+  {
+    "paper_title": "Scheduled Interleaved Speech-Text Training for Speech-to-Speech\n  Translation with LLMs",
+    "arxiv_link": "http://arxiv.org/abs/2506.10299v1",
+    "arxiv_id": "2506.10299v1",
+    "publication_year": 2025,
+    "authors": [
+      "Hayato Futami",
+      "Emiru Tsunoo",
+      "Yosuke Kashiwagi",
+      "Yuki Ito",
+      "Hassan Shahmohammadi",
+      "Siddhant Arora",
+      "Shinji Watanabe"
+    ],
+    "summary": "Speech-to-speech translation (S2ST) has been advanced with large language\nmodels (LLMs), which are fine-tuned on discrete speech units. In such\napproaches, modality adaptation from text to speech has been an issue. LLMs are\ntrained on text-only data, which presents challenges to adapt them to speech\nmodality with limited speech-to-speech data. To address the training\ndifficulty, we propose scheduled interleaved speech--text training in this\nstudy. We use interleaved speech--text units instead of speech units during\ntraining, where aligned text tokens are interleaved at the word level. We\ngradually decrease the ratio of text as training progresses, to facilitate\nprogressive modality adaptation from text to speech. We conduct experimental\nevaluations by fine-tuning LLaMA3.2-1B for S2ST on the CVSS dataset. We show\nthat the proposed method consistently improves the translation performances,\nespecially for languages with limited training data.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Scheduled Interleaved Speech-Text"
+  },
+  {
+    "paper_title": "TESSP: Text-Enhanced Self-Supervised Speech Pre-training",
+    "arxiv_link": "http://arxiv.org/abs/2211.13443v1",
+    "arxiv_id": "2211.13443v1",
+    "publication_year": 2022,
+    "authors": [
+      "Zhuoyuan Yao",
+      "Shuo Ren",
+      "Sanyuan Chen",
+      "Ziyang Ma",
+      "Pengcheng Guo",
+      "Lei Xie"
+    ],
+    "summary": "Self-supervised speech pre-training empowers the model with the contextual\nstructure inherent in the speech signal while self-supervised text pre-training\nempowers the model with linguistic information. Both of them are beneficial for\ndownstream speech tasks such as ASR. However, the distinct pre-training\nobjectives make it challenging to jointly optimize the speech and text\nrepresentation in the same model. To solve this problem, we propose\nText-Enhanced Self-Supervised Speech Pre-training (TESSP), aiming to\nincorporate the linguistic information into speech pre-training. Our model\nconsists of three parts, i.e., a speech encoder, a text encoder and a shared\nencoder. The model takes unsupervised speech and text data as the input and\nleverages the common HuBERT and MLM losses respectively. We also propose\nphoneme up-sampling and representation swapping to enable joint modeling of the\nspeech and text information. Specifically, to fix the length mismatching\nproblem between speech and text data, we phonemize the text sequence and\nup-sample the phonemes with the alignment information extracted from a small\nset of supervised data. Moreover, to close the gap between the learned speech\nand text representations, we swap the text representation with the speech\nrepresentation extracted by the respective private encoders according to the\nalignment information. Experiments on the Librispeech dataset shows the\nproposed TESSP model achieves more than 10% improvement compared with WavLM on\nthe test-clean and test-other sets. We also evaluate our model on the SUPERB\nbenchmark, showing our model has better performance on Phoneme Recognition,\nAcoustic Speech Recognition and Speech Translation compared with WavLM.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "TESSP: Text-Enhanced Self-Supervised"
+  },
+  {
+    "paper_title": "Virtuoso: Massive Multilingual Speech-Text Joint Semi-Supervised\n  Learning for Text-To-Speech",
+    "arxiv_link": "http://arxiv.org/abs/2210.15447v2",
+    "arxiv_id": "2210.15447v2",
+    "publication_year": 2022,
+    "authors": [
+      "Takaaki Saeki",
+      "Heiga Zen",
+      "Zhehuai Chen",
+      "Nobuyuki Morioka",
+      "Gary Wang",
+      "Yu Zhang",
+      "Ankur Bapna",
+      "Andrew Rosenberg",
+      "Bhuvana Ramabhadran"
+    ],
+    "summary": "This paper proposes Virtuoso, a massively multilingual speech-text joint\nsemi-supervised learning framework for text-to-speech synthesis (TTS) models.\nExisting multilingual TTS typically supports tens of languages, which are a\nsmall fraction of the thousands of languages in the world. One difficulty to\nscale multilingual TTS to hundreds of languages is collecting high-quality\nspeech-text paired data in low-resource languages. This study extends Maestro,\na speech-text joint pretraining framework for automatic speech recognition\n(ASR), to speech generation tasks. To train a TTS model from various types of\nspeech and text data, different training schemes are designed to handle\nsupervised (paired TTS and ASR data) and unsupervised (untranscribed speech and\nunspoken text) datasets. Experimental evaluation shows that 1) multilingual TTS\nmodels trained on Virtuoso can achieve significantly better naturalness and\nintelligibility than baseline ones in seen languages, and 2) they can\nsynthesize reasonably intelligible and naturally sounding speech for unseen\nlanguages where no high-quality paired TTS data is available.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Virtuoso: Massive Multilingual"
+  },
+  {
+    "paper_title": "Toward Joint Language Modeling for Speech Units and Text",
+    "arxiv_link": "http://arxiv.org/abs/2310.08715v1",
+    "arxiv_id": "2310.08715v1",
+    "publication_year": 2023,
+    "authors": [
+      "Ju-Chieh Chou",
+      "Chung-Ming Chien",
+      "Wei-Ning Hsu",
+      "Karen Livescu",
+      "Arun Babu",
+      "Alexis Conneau",
+      "Alexei Baevski",
+      "Michael Auli"
+    ],
+    "summary": "Speech and text are two major forms of human language. The research community\nhas been focusing on mapping speech to text or vice versa for many years.\nHowever, in the field of language modeling, very little effort has been made to\nmodel them jointly. In light of this, we explore joint language modeling for\nspeech units and text. Specifically, we compare different speech tokenizers to\ntransform continuous speech signals into discrete units and use different\nmethods to construct mixed speech-text data. We introduce automatic metrics to\nevaluate how well the joint LM mixes speech and text. We also fine-tune the LM\non downstream spoken language understanding (SLU) tasks with different\nmodalities (speech or text) and test its performance to assess the model's\nlearning of shared representations. Our results show that by mixing speech\nunits and text with our proposed mixing techniques, the joint LM improves over\na speech-only baseline on SLU tasks and shows zero-shot cross-modal\ntransferability.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Toward Joint Language"
+  },
+  {
+    "paper_title": "token2vec: A Joint Self-Supervised Pre-training Framework Using Unpaired\n  Speech and Text",
+    "arxiv_link": "http://arxiv.org/abs/2210.16755v1",
+    "arxiv_id": "2210.16755v1",
+    "publication_year": 2022,
+    "authors": [
+      "Xianghu Yue",
+      "Junyi Ao",
+      "Xiaoxue Gao",
+      "Haizhou Li"
+    ],
+    "summary": "Self-supervised pre-training has been successful in both text and speech\nprocessing. Speech and text offer different but complementary information. The\nquestion is whether we are able to perform a speech-text joint pre-training on\nunpaired speech and text. In this paper, we take the idea of self-supervised\npre-training one step further and propose token2vec, a novel joint pre-training\nframework for unpaired speech and text based on discrete representations of\nspeech. Firstly, due to the distinct characteristics between speech and text\nmodalities, where speech is continuous while text is discrete, we first\ndiscretize speech into a sequence of discrete speech tokens to solve the\nmodality mismatch problem. Secondly, to solve the length mismatch problem,\nwhere the speech sequence is usually much longer than text sequence, we convert\nthe words of text into phoneme sequences and randomly repeat each phoneme in\nthe sequences. Finally, we feed the discrete speech and text tokens into a\nmodality-agnostic Transformer encoder and pre-train with token-level masking\nlanguage modeling (tMLM). Experiments show that token2vec is significantly\nsuperior to various speech-only pre-training baselines, with up to 17.7%\nrelative WER reduction. Token2vec model is also validated on a non-ASR task,\ni.e., spoken intent classification, and shows good transferability.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "token2vec: A Joint"
+  },
+  {
+    "paper_title": "LAST: Language Model Aware Speech Tokenization",
+    "arxiv_link": "http://arxiv.org/abs/2409.03701v2",
+    "arxiv_id": "2409.03701v2",
+    "publication_year": 2024,
+    "authors": [
+      "Arnon Turetzky",
+      "Yossi Adi"
+    ],
+    "summary": "Speech tokenization serves as the foundation of speech language model (LM),\nenabling them to perform various tasks such as spoken language modeling,\ntext-to-speech, speech-to-text, etc. Most speech tokenizers are trained\nindependently of the LM training process, relying on separate acoustic models\nand quantization methods. Following such an approach may create a mismatch\nbetween the tokenization process and its usage afterward. In this study, we\npropose a novel approach to training a speech tokenizer by leveraging\nobjectives from pre-trained textual LMs. We advocate for the integration of\nthis objective into the process of learning discrete speech representations.\nOur aim is to transform features from a pre-trained speech model into a new\nfeature space that enables better clustering for speech LMs. We empirically\ninvestigate the impact of various model design choices, including speech\nvocabulary size and text LM size. Our results demonstrate the proposed\ntokenization method outperforms the evaluated baselines considering both spoken\nlanguage modeling and speech-to-text. More importantly, unlike prior work, the\nproposed method allows the utilization of a single pre-trained LM for\nprocessing both speech and text inputs, setting it apart from conventional\ntokenization approaches.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "LAST: Language Model"
+  },
+  {
+    "paper_title": "Continuous Speech Tokenizer in Text To Speech",
+    "arxiv_link": "http://arxiv.org/abs/2410.17081v2",
+    "arxiv_id": "2410.17081v2",
+    "publication_year": 2024,
+    "authors": [
+      "Yixing Li",
+      "Ruobing Xie",
+      "Xingwu Sun",
+      "Yu Cheng",
+      "Zhanhui Kang"
+    ],
+    "summary": "The fusion of speech and language in the era of large language models has\ngarnered significant attention. Discrete speech token is often utilized in\ntext-to-speech tasks for speech compression and portability, which is\nconvenient for joint training with text and have good compression efficiency.\nHowever, we found that the discrete speech tokenizer still suffers from\ninformation loss. Therefore, we propose a simple yet effective continuous\nspeech tokenizer named Cont-SPT, and a text-to-speech model based on continuous\nspeech tokens. Our results show that the speech language model based on the\ncontinuous speech tokenizer has better continuity and higher estimated Mean\nOpinion Scores (MoS). This enhancement is attributed to better information\npreservation rate of the continuous speech tokenizer across both low and high\nfrequencies in the frequency domain. The code and resources for Cont-SPT can be\nfound in https://github.com/Yixing-Li/Continuous-Speech-Tokenizer",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Continuous Speech Tokenizer"
+  },
+  {
+    "paper_title": "Vec-Tok Speech: speech vectorization and tokenization for neural speech\n  generation",
+    "arxiv_link": "http://arxiv.org/abs/2310.07246v2",
+    "arxiv_id": "2310.07246v2",
+    "publication_year": 2023,
+    "authors": [
+      "Xinfa Zhu",
+      "Yuanjun Lv",
+      "Yi Lei",
+      "Tao Li",
+      "Wendi He",
+      "Hongbin Zhou",
+      "Heng Lu",
+      "Lei Xie"
+    ],
+    "summary": "Language models (LMs) have recently flourished in natural language processing\nand computer vision, generating high-fidelity texts or images in various tasks.\nIn contrast, the current speech generative models are still struggling\nregarding speech quality and task generalization. This paper presents Vec-Tok\nSpeech, an extensible framework that resembles multiple speech generation\ntasks, generating expressive and high-fidelity speech. Specifically, we propose\na novel speech codec based on speech vectors and semantic tokens. Speech\nvectors contain acoustic details contributing to high-fidelity speech\nreconstruction, while semantic tokens focus on the linguistic content of\nspeech, facilitating language modeling. Based on the proposed speech codec,\nVec-Tok Speech leverages an LM to undertake the core of speech generation.\nMoreover, Byte-Pair Encoding (BPE) is introduced to reduce the token length and\nbit rate for lower exposure bias and longer context coverage, improving the\nperformance of LMs. Vec-Tok Speech can be used for intra- and cross-lingual\nzero-shot voice conversion (VC), zero-shot speaking style transfer\ntext-to-speech (TTS), speech-to-speech translation (S2ST), speech denoising,\nand speaker de-identification and anonymization. Experiments show that Vec-Tok\nSpeech, built on 50k hours of speech, performs better than other SOTA models.\nCode will be available at https://github.com/BakerBunker/VecTok .",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Vec-Tok Speech: speech"
+  },
+  {
+    "paper_title": "Bridging the Modality Gap for Speech-to-Text Translation",
+    "arxiv_link": "http://arxiv.org/abs/2010.14920v1",
+    "arxiv_id": "2010.14920v1",
+    "publication_year": 2020,
+    "authors": [
+      "Yuchen Liu",
+      "Junnan Zhu",
+      "Jiajun Zhang",
+      "Chengqing Zong"
+    ],
+    "summary": "End-to-end speech translation aims to translate speech in one language into\ntext in another language via an end-to-end way. Most existing methods employ an\nencoder-decoder structure with a single encoder to learn acoustic\nrepresentation and semantic information simultaneously, which ignores the\nspeech-and-text modality differences and makes the encoder overloaded, leading\nto great difficulty in learning such a model. To address these issues, we\npropose a Speech-to-Text Adaptation for Speech Translation (STAST) model which\naims to improve the end-to-end model performance by bridging the modality gap\nbetween speech and text. Specifically, we decouple the speech translation\nencoder into three parts and introduce a shrink mechanism to match the length\nof speech representation with that of the corresponding text transcription. To\nobtain better semantic representation, we completely integrate a text-based\ntranslation model into the STAST so that two tasks can be trained in the same\nlatent space. Furthermore, we introduce a cross-modal adaptation method to\nclose the distance between speech and text representation. Experimental results\non English-French and English-German speech translation corpora have shown that\nour model significantly outperforms strong baselines, and achieves the new\nstate-of-the-art performance.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Bridging the Modality"
+  },
+  {
+    "paper_title": "LibriS2S: A German-English Speech-to-Speech Translation Corpus",
+    "arxiv_link": "http://arxiv.org/abs/2204.10593v1",
+    "arxiv_id": "2204.10593v1",
+    "publication_year": 2022,
+    "authors": [
+      "Pedro Jeuris",
+      "Jan Niehues"
+    ],
+    "summary": "Recently, we have seen an increasing interest in the area of speech-to-text\ntranslation. This has led to astonishing improvements in this area. In\ncontrast, the activities in the area of speech-to-speech translation is still\nlimited, although it is essential to overcome the language barrier. We believe\nthat one of the limiting factors is the availability of appropriate training\ndata. We address this issue by creating LibriS2S, to our knowledge the first\npublicly available speech-to-speech training corpus between German and English.\nFor this corpus, we used independently created audio for German and English\nleading to an unbiased pronunciation of the text in both languages. This allows\nthe creation of a new text-to-speech and speech-to-speech translation model\nthat directly learns to generate the speech signal based on the pronunciation\nof the source language. Using this created corpus, we propose Text-to-Speech\nmodels based on the example of the recently proposed FastSpeech 2 model that\nintegrates source language information. We do this by adapting the model to\ntake information such as the pitch, energy or transcript from the source speech\nas additional input.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "LibriS2S: A German-English"
+  },
+  {
+    "paper_title": "Assessing Evaluation Metrics for Speech-to-Speech Translation",
+    "arxiv_link": "http://arxiv.org/abs/2110.13877v1",
+    "arxiv_id": "2110.13877v1",
+    "publication_year": 2021,
+    "authors": [
+      "Elizabeth Salesky",
+      "Julian Mäder",
+      "Severin Klinger"
+    ],
+    "summary": "Speech-to-speech translation combines machine translation with speech\nsynthesis, introducing evaluation challenges not present in either task alone.\nHow to automatically evaluate speech-to-speech translation is an open question\nwhich has not previously been explored. Translating to speech rather than to\ntext is often motivated by unwritten languages or languages without\nstandardized orthographies. However, we show that the previously used automatic\nmetric for this task is best equipped for standardized high-resource languages\nonly. In this work, we first evaluate current metrics for speech-to-speech\ntranslation, and second assess how translation to dialectal variants rather\nthan to standardized languages impacts various evaluation methods.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Assessing Evaluation Metrics"
+  },
+  {
+    "paper_title": "SpeechUT: Bridging Speech and Text with Hidden-Unit for Encoder-Decoder\n  Based Speech-Text Pre-training",
+    "arxiv_link": "http://arxiv.org/abs/2210.03730v1",
+    "arxiv_id": "2210.03730v1",
+    "publication_year": 2022,
+    "authors": [
+      "Ziqiang Zhang",
+      "Long Zhou",
+      "Junyi Ao",
+      "Shujie Liu",
+      "Lirong Dai",
+      "Jinyu Li",
+      "Furu Wei"
+    ],
+    "summary": "The rapid development of single-modal pre-training has prompted researchers\nto pay more attention to cross-modal pre-training methods. In this paper, we\npropose a unified-modal speech-unit-text pre-training model, SpeechUT, to\nconnect the representations of a speech encoder and a text decoder with a\nshared unit encoder. Leveraging hidden-unit as an interface to align speech and\ntext, we can decompose the speech-to-text model into a speech-to-unit model and\na unit-to-text model, which can be jointly pre-trained with unpaired speech and\ntext data respectively. Our proposed SpeechUT is fine-tuned and evaluated on\nautomatic speech recognition (ASR) and speech translation (ST) tasks.\nExperimental results show that SpeechUT gets substantial improvements over\nstrong baselines, and achieves state-of-the-art performance on both the\nLibriSpeech ASR and MuST-C ST tasks. To better understand the proposed\nSpeechUT, detailed analyses are conducted. The code and pre-trained models are\navailable at https://aka.ms/SpeechUT.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "SpeechUT: Bridging Speech"
+  },
+  {
+    "paper_title": "Scaling Speech-Text Pre-training with Synthetic Interleaved Data",
+    "arxiv_link": "http://arxiv.org/abs/2411.17607v2",
+    "arxiv_id": "2411.17607v2",
+    "publication_year": 2024,
+    "authors": [
+      "Aohan Zeng",
+      "Zhengxiao Du",
+      "Mingdao Liu",
+      "Lei Zhang",
+      "Shengmin Jiang",
+      "Yuxiao Dong",
+      "Jie Tang"
+    ],
+    "summary": "Speech language models (SpeechLMs) accept speech input and produce speech\noutput, allowing for more natural human-computer interaction compared to\ntext-based large language models (LLMs). Traditional approaches for developing\nSpeechLMs are constrained by the limited availability of unsupervised speech\ndata and parallel speech-text data, which are significantly less abundant than\ntext pre-training data, thereby limiting their scalability as LLMs. We propose\na novel approach to scaling speech-text pre-training by leveraging large-scale\nsynthetic interleaved data derived from text corpora, eliminating the need for\nparallel speech-text datasets. Our method efficiently constructs speech-text\ninterleaved data by sampling text spans from existing text corpora and\nsynthesizing corresponding speech spans using a text-to-token model, bypassing\nthe need to generate actual speech. We also employ a supervised speech\ntokenizer derived from an automatic speech recognition (ASR) model by\nincorporating a vector-quantized bottleneck into the encoder. This supervised\ntraining approach results in discrete speech tokens with strong semantic\npreservation even at lower frame rates (e.g. 12.5Hz), while still maintaining\nspeech reconstruction quality. Starting from a pre-trained language model and\nscaling our pre-training to 1 trillion tokens (with 600B synthetic interleaved\nspeech-text data), we achieve state-of-the-art performance in speech language\nmodeling and spoken question answering, improving performance on spoken\nquestions tasks from the previous SOTA of 13% (Moshi) to 31%. We further\ndemonstrate that by fine-tuning the pre-trained model with speech dialogue\ndata, we can develop an end-to-end spoken chatbot that achieves competitive\nperformance comparable to existing baselines in both conversational abilities\nand speech quality, even operating exclusively in the speech domain.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Scaling Speech-Text Pre-training"
+  },
+  {
+    "paper_title": "TI-ASU: Toward Robust Automatic Speech Understanding through\n  Text-to-speech Imputation Against Missing Speech Modality",
+    "arxiv_link": "http://arxiv.org/abs/2404.17983v1",
+    "arxiv_id": "2404.17983v1",
+    "publication_year": 2024,
+    "authors": [
+      "Tiantian Feng",
+      "Xuan Shi",
+      "Rahul Gupta",
+      "Shrikanth S. Narayanan"
+    ],
+    "summary": "Automatic Speech Understanding (ASU) aims at human-like speech\ninterpretation, providing nuanced intent, emotion, sentiment, and content\nunderstanding from speech and language (text) content conveyed in speech.\nTypically, training a robust ASU model relies heavily on acquiring large-scale,\nhigh-quality speech and associated transcriptions. However, it is often\nchallenging to collect or use speech data for training ASU due to concerns such\nas privacy. To approach this setting of enabling ASU when speech (audio)\nmodality is missing, we propose TI-ASU, using a pre-trained text-to-speech\nmodel to impute the missing speech. We report extensive experiments evaluating\nTI-ASU on various missing scales, both multi- and single-modality settings, and\nthe use of LLMs. Our findings show that TI-ASU yields substantial benefits to\nimprove ASU in scenarios where even up to 95% of training speech is missing.\nMoreover, we show that TI-ASU is adaptive to dropout training, improving model\nrobustness in addressing missing speech during inference.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "TI-ASU: Toward Robust"
+  },
+  {
+    "paper_title": "A$^3$T: Alignment-Aware Acoustic and Text Pretraining for Speech\n  Synthesis and Editing",
+    "arxiv_link": "http://arxiv.org/abs/2203.09690v2",
+    "arxiv_id": "2203.09690v2",
+    "publication_year": 2022,
+    "authors": [
+      "He Bai",
+      "Renjie Zheng",
+      "Junkun Chen",
+      "Xintong Li",
+      "Mingbo Ma",
+      "Liang Huang"
+    ],
+    "summary": "Recently, speech representation learning has improved many speech-related\ntasks such as speech recognition, speech classification, and speech-to-text\ntranslation. However, all the above tasks are in the direction of speech\nunderstanding, but for the inverse direction, speech synthesis, the potential\nof representation learning is yet to be realized, due to the challenging nature\nof generating high-quality speech. To address this problem, we propose our\nframework, Alignment-Aware Acoustic-Text Pretraining (A$^3$T), which\nreconstructs masked acoustic signals with text input and acoustic-text\nalignment during training. In this way, the pretrained model can generate high\nquality reconstructed spectrogram, which can be applied to the speech editing\nand unseen speaker TTS directly. Experiments show A$^3$T outperforms SOTA\nmodels on speech editing, and improves multi-speaker speech synthesis without\nthe external speaker verification model.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "A$^3$T: Alignment-Aware Acoustic"
+  },
+  {
+    "paper_title": "Understanding Shared Speech-Text Representations",
+    "arxiv_link": "http://arxiv.org/abs/2304.14514v1",
+    "arxiv_id": "2304.14514v1",
+    "publication_year": 2023,
+    "authors": [
+      "Gary Wang",
+      "Kyle Kastner",
+      "Ankur Bapna",
+      "Zhehuai Chen",
+      "Andrew Rosenberg",
+      "Bhuvana Ramabhadran",
+      "Yu Zhang"
+    ],
+    "summary": "Recently, a number of approaches to train speech models by incorpo-rating\ntext into end-to-end models have been developed, with Mae-stro advancing\nstate-of-the-art automatic speech recognition (ASR)and Speech Translation (ST)\nperformance. In this paper, we expandour understanding of the resulting shared\nspeech-text representationswith two types of analyses. First we examine the\nlimits of speech-free domain adaptation, finding that a corpus-specific\nduration modelfor speech-text alignment is the most important component for\nlearn-ing a shared speech-text representation. Second, we inspect the\nsim-ilarities between activations of unimodal (speech or text) encodersas\ncompared to the activations of a shared encoder. We find that theshared encoder\nlearns a more compact and overlapping speech-textrepresentation than the\nuni-modal encoders. We hypothesize that thispartially explains the\neffectiveness of the Maestro shared speech-textrepresentations.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Understanding Shared Speech-Text"
+  },
+  {
+    "paper_title": "Textless Unit-to-Unit training for Many-to-Many Multilingual\n  Speech-to-Speech Translation",
+    "arxiv_link": "http://arxiv.org/abs/2308.01831v2",
+    "arxiv_id": "2308.01831v2",
+    "publication_year": 2023,
+    "authors": [
+      "Minsu Kim",
+      "Jeongsoo Choi",
+      "Dahun Kim",
+      "Yong Man Ro"
+    ],
+    "summary": "This paper proposes a textless training method for many-to-many multilingual\nspeech-to-speech translation that can also benefit the transfer of pre-trained\nknowledge to text-based systems, text-to-speech synthesis and text-to-speech\ntranslation. To this end, we represent multilingual speech with speech units\nthat are the discretized representations of speech features derived from a\nself-supervised speech model. By treating the speech units as pseudo-text, we\ncan focus on the linguistic content of the speech, which can be easily\nassociated with both speech and text modalities at the phonetic level\ninformation. By setting both the inputs and outputs of our learning problem as\nspeech units, we propose to train an encoder-decoder model in a many-to-many\nspoken language translation setting, namely Unit-to-Unit Translation (UTUT).\nSpecifically, the encoder is conditioned on the source language token to\ncorrectly understand the input spoken language, while the decoder is\nconditioned on the target language token to generate the translated speech in\nthe target language. Therefore, during the training, the model can build the\nknowledge of how languages are comprehended and how to relate them to different\nlanguages. Since speech units can be easily associated from both audio and text\nby quantization and phonemization respectively, the trained model can easily\ntransferred to text-related tasks, even if it is trained in a textless manner.\nWe demonstrate that the proposed UTUT model can be effectively utilized not\nonly for Speech-to-Speech Translation (S2ST) but also for multilingual\nText-to-Speech Synthesis (T2S) and Text-to-Speech Translation (T2ST), requiring\nonly minimal fine-tuning steps on text inputs. By conducting comprehensive\nexperiments encompassing various languages, we validate the efficacy of the\nproposed method across diverse multilingual tasks.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Textless Unit-to-Unit training"
+  },
+  {
+    "paper_title": "Speech Synthesis from Text and Ultrasound Tongue Image-based\n  Articulatory Input",
+    "arxiv_link": "http://arxiv.org/abs/2107.02003v1",
+    "arxiv_id": "2107.02003v1",
+    "publication_year": 2021,
+    "authors": [
+      "Tamás Gábor Csapó",
+      "László Tóth",
+      "Gábor Gosztolya",
+      "Alexandra Markó"
+    ],
+    "summary": "Articulatory information has been shown to be effective in improving the\nperformance of HMM-based and DNN-based text-to-speech synthesis. Speech\nsynthesis research focuses traditionally on text-to-speech conversion, when the\ninput is text or an estimated linguistic representation, and the target is\nsynthesized speech. However, a research field that has risen in the last decade\nis articulation-to-speech synthesis (with a target application of a Silent\nSpeech Interface, SSI), when the goal is to synthesize speech from some\nrepresentation of the movement of the articulatory organs. In this paper, we\nextend traditional (vocoder-based) DNN-TTS with articulatory input, estimated\nfrom ultrasound tongue images. We compare text-only, ultrasound-only, and\ncombined inputs. Using data from eight speakers, we show that that the combined\ntext and articulatory input can have advantages in limited-data scenarios,\nnamely, it may increase the naturalness of synthesized speech compared to\nsingle text input. Besides, we analyze the ultrasound tongue recordings of\nseveral speakers, and show that misalignments in the ultrasound transducer\npositioning can have a negative effect on the final synthesis performance.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Speech Synthesis from"
+  },
+  {
+    "paper_title": "MASS: Multi-task Anthropomorphic Speech Synthesis Framework",
+    "arxiv_link": "http://arxiv.org/abs/2105.04124v1",
+    "arxiv_id": "2105.04124v1",
+    "publication_year": 2021,
+    "authors": [
+      "Jinyin Chen",
+      "Linhui Ye",
+      "Zhaoyan Ming"
+    ],
+    "summary": "Text-to-Speech (TTS) synthesis plays an important role in human-computer\ninteraction. Currently, most TTS technologies focus on the naturalness of\nspeech, namely,making the speeches sound like humans. However, the key tasks of\nthe expression of emotion and the speaker identity are ignored, which limits\nthe application scenarios of TTS synthesis technology. To make the synthesized\nspeech more realistic and expand the application scenarios, we propose a\nmulti-task anthropomorphic speech synthesis framework (MASS), which can\nsynthesize speeches from text with specified emotion and speaker identity. The\nMASS framework consists of a base TTS module and two novel voice conversion\nmodules: the emotional voice conversion module and the speaker voice conversion\nmodule. We propose deep emotion voice conversion model (DEVC) and deep speaker\nvoice conversion model (DSVC) based on convolution residual networks. It solves\nthe problem of feature loss during voice conversion. The model trainings are\nindependent of parallel datasets, and are capable of many-to-many voice\nconversion. In the emotional voice conversion, speaker voice conversion\nexperiments, as well as the multi-task speech synthesis experiments,\nexperimental results show DEVC and DSVC convert speech effectively. The\nquantitative and qualitative evaluation results of multi-task speech synthesis\nexperiments show MASS can effectively synthesis speech with specified text,\nemotion and speaker identity.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "MASS: Multi-task Anthropomorphic"
+  },
+  {
+    "paper_title": "Visualising Model Training via Vowel Space for Text-To-Speech Systems",
+    "arxiv_link": "http://arxiv.org/abs/2208.09775v1",
+    "arxiv_id": "2208.09775v1",
+    "publication_year": 2022,
+    "authors": [
+      "Binu Abeysinghe",
+      "Jesin James",
+      "Catherine I. Watson",
+      "Felix Marattukalam"
+    ],
+    "summary": "With the recent developments in speech synthesis via machine learning, this\nstudy explores incorporating linguistics knowledge to visualise and evaluate\nsynthetic speech model training. If changes to the first and second formant (in\nturn, the vowel space) can be seen and heard in synthetic speech, this\nknowledge can inform speech synthesis technology developers. A speech synthesis\nmodel trained on a large General American English database was fine-tuned into\na New Zealand English voice to identify if the changes in the vowel space of\nsynthetic speech could be seen and heard. The vowel spaces at different\nintervals during the fine-tuning were analysed to determine if the model\nlearned the New Zealand English vowel space. Our findings based on vowel space\nanalysis show that we can visualise how a speech synthesis model learns the\nvowel space of the database it is trained on. Perception tests confirmed that\nhumans could perceive when a speech synthesis model has learned characteristics\nof the speech database it is training on. Using the vowel space as an\nintermediary evaluation helps understand what sounds are to be added to the\ntraining database and build speech synthesis models based on linguistics\nknowledge.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Visualising Model Training"
+  },
+  {
+    "paper_title": "HierSpeech++: Bridging the Gap between Semantic and Acoustic\n  Representation of Speech by Hierarchical Variational Inference for Zero-shot\n  Speech Synthesis",
+    "arxiv_link": "http://arxiv.org/abs/2311.12454v2",
+    "arxiv_id": "2311.12454v2",
+    "publication_year": 2023,
+    "authors": [
+      "Sang-Hoon Lee",
+      "Ha-Yeong Choi",
+      "Seung-Bin Kim",
+      "Seong-Whan Lee"
+    ],
+    "summary": "Large language models (LLM)-based speech synthesis has been widely adopted in\nzero-shot speech synthesis. However, they require a large-scale data and\npossess the same limitations as previous autoregressive speech models,\nincluding slow inference speed and lack of robustness. This paper proposes\nHierSpeech++, a fast and strong zero-shot speech synthesizer for text-to-speech\n(TTS) and voice conversion (VC). We verified that hierarchical speech synthesis\nframeworks could significantly improve the robustness and expressiveness of the\nsynthetic speech. Furthermore, we significantly improve the naturalness and\nspeaker similarity of synthetic speech even in zero-shot speech synthesis\nscenarios. For text-to-speech, we adopt the text-to-vec framework, which\ngenerates a self-supervised speech representation and an F0 representation\nbased on text representations and prosody prompts. Then, HierSpeech++ generates\nspeech from the generated vector, F0, and voice prompt. We further introduce a\nhigh-efficient speech super-resolution framework from 16 kHz to 48 kHz. The\nexperimental results demonstrated that the hierarchical variational autoencoder\ncould be a strong zero-shot speech synthesizer given that it outperforms\nLLM-based and diffusion-based models. Moreover, we achieved the first\nhuman-level quality zero-shot speech synthesis. Audio samples and source code\nare available at https://github.com/sh-lee-prml/HierSpeechpp.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "HierSpeech++: Bridging the"
+  },
+  {
+    "paper_title": "WaveCycleGAN2: Time-domain Neural Post-filter for Speech Waveform\n  Generation",
+    "arxiv_link": "http://arxiv.org/abs/1904.02892v2",
+    "arxiv_id": "1904.02892v2",
+    "publication_year": 2019,
+    "authors": [
+      "Kou Tanaka",
+      "Hirokazu Kameoka",
+      "Takuhiro Kaneko",
+      "Nobukatsu Hojo"
+    ],
+    "summary": "WaveCycleGAN has recently been proposed to bridge the gap between natural and\nsynthesized speech waveforms in statistical parametric speech synthesis and\nprovides fast inference with a moving average model rather than an\nautoregressive model and high-quality speech synthesis with the adversarial\ntraining. However, the human ear can still distinguish the processed speech\nwaveforms from natural ones. One possible cause of this distinguishability is\nthe aliasing observed in the processed speech waveform via down/up-sampling\nmodules. To solve the aliasing and provide higher quality speech synthesis, we\npropose WaveCycleGAN2, which 1) uses generators without down/up-sampling\nmodules and 2) combines discriminators of the waveform domain and acoustic\nparameter domain. The results show that the proposed method 1) alleviates the\naliasing well, 2) is useful for both speech waveforms generated by\nanalysis-and-synthesis and statistical parametric speech synthesis, and 3)\nachieves a mean opinion score comparable to those of natural speech and speech\nsynthesized by WaveNet (open WaveNet) and WaveGlow while processing speech\nsamples at a rate of more than 150 kHz on an NVIDIA Tesla P100.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "WaveCycleGAN2: Time-domain Neural"
+  },
+  {
+    "paper_title": "Accurate synthesis of Dysarthric Speech for ASR data augmentation",
+    "arxiv_link": "http://arxiv.org/abs/2308.08438v1",
+    "arxiv_id": "2308.08438v1",
+    "publication_year": 2023,
+    "authors": [
+      "Mohammad Soleymanpour",
+      "Michael T. Johnson",
+      "Rahim Soleymanpour",
+      "Jeffrey Berry"
+    ],
+    "summary": "Dysarthria is a motor speech disorder often characterized by reduced speech\nintelligibility through slow, uncoordinated control of speech production\nmuscles. Automatic Speech recognition (ASR) systems can help dysarthric talkers\ncommunicate more effectively. However, robust dysarthria-specific ASR requires\na significant amount of training speech, which is not readily available for\ndysarthric talkers. This paper presents a new dysarthric speech synthesis\nmethod for the purpose of ASR training data augmentation. Differences in\nprosodic and acoustic characteristics of dysarthric spontaneous speech at\nvarying severity levels are important components for dysarthric speech\nmodeling, synthesis, and augmentation. For dysarthric speech synthesis, a\nmodified neural multi-talker TTS is implemented by adding a dysarthria severity\nlevel coefficient and a pause insertion model to synthesize dysarthric speech\nfor varying severity levels. To evaluate the effectiveness for synthesis of\ntraining data for ASR, dysarthria-specific speech recognition was used. Results\nshow that a DNN-HMM model trained on additional synthetic dysarthric speech\nachieves WER improvement of 12.2% compared to the baseline, and that the\naddition of the severity level and pause insertion controls decrease WER by\n6.5%, showing the effectiveness of adding these parameters. Overall results on\nthe TORGO database demonstrate that using dysarthric synthetic speech to\nincrease the amount of dysarthric-patterned speech for training has significant\nimpact on the dysarthric ASR systems. In addition, we have conducted a\nsubjective evaluation to evaluate the dysarthric-ness and similarity of\nsynthesized speech. Our subjective evaluation shows that the perceived\ndysartrhic-ness of synthesized speech is similar to that of true dysarthric\nspeech, especially for higher levels of dysarthria",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Accurate synthesis of"
+  },
+  {
+    "paper_title": "Empirical Study Incorporating Linguistic Knowledge on Filled Pauses for\n  Personalized Spontaneous Speech Synthesis",
+    "arxiv_link": "http://arxiv.org/abs/2210.07559v2",
+    "arxiv_id": "2210.07559v2",
+    "publication_year": 2022,
+    "authors": [
+      "Yuta Matsunaga",
+      "Takaaki Saeki",
+      "Shinnosuke Takamichi",
+      "Hiroshi Saruwatari"
+    ],
+    "summary": "We present a comprehensive empirical study for personalized spontaneous\nspeech synthesis on the basis of linguistic knowledge. With the advent of voice\ncloning for reading-style speech synthesis, a new voice cloning paradigm for\nhuman-like and spontaneous speech synthesis is required. We, therefore, focus\non personalized spontaneous speech synthesis that can clone both the\nindividual's voice timbre and speech disfluency. Specifically, we deal with\nfilled pauses, a major source of speech disfluency, which is known to play an\nimportant role in speech generation and communication in psychology and\nlinguistics. To comparatively evaluate personalized filled pause insertion and\nnon-personalized filled pause prediction methods, we developed a speech\nsynthesis method with a non-personalized external filled pause predictor\ntrained with a multi-speaker corpus. The results clarify the position-word\nentanglement of filled pauses, i.e., the necessity of precisely predicting\npositions for naturalness and the necessity of precisely predicting words for\nindividuality on the evaluation of synthesized speech.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Empirical Study Incorporating"
+  },
+  {
+    "paper_title": "A Bengali HMM Based Speech Synthesis System",
+    "arxiv_link": "http://arxiv.org/abs/1406.3915v1",
+    "arxiv_id": "1406.3915v1",
+    "publication_year": 2014,
+    "authors": [
+      "Sankar Mukherjee",
+      "Shyamal Kumar Das Mandal"
+    ],
+    "summary": "The paper presents the capability of an HMM-based TTS system to produce\nBengali speech. In this synthesis method, trajectories of speech parameters are\ngenerated from the trained Hidden Markov Models. A final speech waveform is\nsynthesized from those speech parameters. In our experiments, spectral\nproperties were represented by Mel Cepstrum Coefficients. Both the training and\nsynthesis issues are investigated in this paper using annotated Bengali speech\ndatabase. Experimental evaluation depicts that the developed text-to-speech\nsystem is capable of producing adequately natural speech in terms of\nintelligibility and intonation for Bengali.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "A Bengali HMM"
+  },
+  {
+    "paper_title": "RoVo: Robust Voice Protection Against Unauthorized Speech Synthesis with\n  Embedding-Level Perturbations",
+    "arxiv_link": "http://arxiv.org/abs/2505.12686v1",
+    "arxiv_id": "2505.12686v1",
+    "publication_year": 2025,
+    "authors": [
+      "Seungmin Kim",
+      "Sohee Park",
+      "Donghyun Kim",
+      "Jisu Lee",
+      "Daeseon Choi"
+    ],
+    "summary": "With the advancement of AI-based speech synthesis technologies such as Deep\nVoice, there is an increasing risk of voice spoofing attacks, including voice\nphishing and fake news, through unauthorized use of others' voices. Existing\ndefenses that inject adversarial perturbations directly into audio signals have\nlimited effectiveness, as these perturbations can easily be neutralized by\nspeech enhancement methods. To overcome this limitation, we propose RoVo\n(Robust Voice), a novel proactive defense technique that injects adversarial\nperturbations into high-dimensional embedding vectors of audio signals,\nreconstructing them into protected speech. This approach effectively defends\nagainst speech synthesis attacks and also provides strong resistance to speech\nenhancement models, which represent a secondary attack threat.\n  In extensive experiments, RoVo increased the Defense Success Rate (DSR) by\nover 70% compared to unprotected speech, across four state-of-the-art speech\nsynthesis models. Specifically, RoVo achieved a DSR of 99.5% on a commercial\nspeaker-verification API, effectively neutralizing speech synthesis attack.\nMoreover, RoVo's perturbations remained robust even under strong speech\nenhancement conditions, outperforming traditional methods. A user study\nconfirmed that RoVo preserves both naturalness and usability of protected\nspeech, highlighting its effectiveness in complex and evolving threat\nscenarios.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "RoVo: Robust Voice"
+  },
+  {
+    "paper_title": "J-MAC: Japanese multi-speaker audiobook corpus for speech synthesis",
+    "arxiv_link": "http://arxiv.org/abs/2201.10896v1",
+    "arxiv_id": "2201.10896v1",
+    "publication_year": 2022,
+    "authors": [
+      "Shinnosuke Takamichi",
+      "Wataru Nakata",
+      "Naoko Tanji",
+      "Hiroshi Saruwatari"
+    ],
+    "summary": "In this paper, we construct a Japanese audiobook speech corpus called \"J-MAC\"\nfor speech synthesis research. With the success of reading-style speech\nsynthesis, the research target is shifting to tasks that use complicated\ncontexts. Audiobook speech synthesis is a good example that requires\ncross-sentence, expressiveness, etc. Unlike reading-style speech,\nspeaker-specific expressiveness in audiobook speech also becomes the context.\nTo enhance this research, we propose a method of constructing a corpus from\naudiobooks read by professional speakers. From many audiobooks and their texts,\nour method can automatically extract and refine the data without any language\ndependency. Specifically, we use vocal-instrumental separation to extract clean\ndata, connectionist temporal classification to roughly align text and audio,\nand voice activity detection to refine the alignment. J-MAC is open-sourced in\nour project page. We also conduct audiobook speech synthesis evaluations, and\nthe results give insights into audiobook speech synthesis.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "J-MAC: Japanese multi-speaker"
+  },
+  {
+    "paper_title": "SelfRemaster: Self-Supervised Speech Restoration with\n  Analysis-by-Synthesis Approach Using Channel Modeling",
+    "arxiv_link": "http://arxiv.org/abs/2203.12937v2",
+    "arxiv_id": "2203.12937v2",
+    "publication_year": 2022,
+    "authors": [
+      "Takaaki Saeki",
+      "Shinnosuke Takamichi",
+      "Tomohiko Nakamura",
+      "Naoko Tanji",
+      "Hiroshi Saruwatari"
+    ],
+    "summary": "We present a self-supervised speech restoration method without paired speech\ncorpora. Because the previous general speech restoration method uses artificial\npaired data created by applying various distortions to high-quality speech\ncorpora, it cannot sufficiently represent acoustic distortions of real data,\nlimiting the applicability. Our model consists of analysis, synthesis, and\nchannel modules that simulate the recording process of degraded speech and is\ntrained with real degraded speech data in a self-supervised manner. The\nanalysis module extracts distortionless speech features and distortion features\nfrom degraded speech, while the synthesis module synthesizes the restored\nspeech waveform, and the channel module adds distortions to the speech\nwaveform. Our model also enables audio effect transfer, in which only acoustic\ndistortions are extracted from degraded speech and added to arbitrary\nhigh-quality audio. Experimental evaluations with both simulated and real data\nshow that our method achieves significantly higher-quality speech restoration\nthan the previous supervised method, suggesting its applicability to real\ndegraded speech materials.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "SelfRemaster: Self-Supervised Speech"
+  },
+  {
+    "paper_title": "Integrating Feedback Loss from Bi-modal Sarcasm Detector for Sarcastic\n  Speech Synthesis",
+    "arxiv_link": "http://arxiv.org/abs/2508.13028v1",
+    "arxiv_id": "2508.13028v1",
+    "publication_year": 2025,
+    "authors": [
+      "Zhu Li",
+      "Yuqing Zhang",
+      "Xiyuan Gao",
+      "Devraj Raghuvanshi",
+      "Nagendra Kumar",
+      "Shekhar Nayak",
+      "Matt Coler"
+    ],
+    "summary": "Sarcastic speech synthesis, which involves generating speech that effectively\nconveys sarcasm, is essential for enhancing natural interactions in\napplications such as entertainment and human-computer interaction. However,\nsynthesizing sarcastic speech remains a challenge due to the nuanced prosody\nthat characterizes sarcasm, as well as the limited availability of annotated\nsarcastic speech data. To address these challenges, this study introduces a\nnovel approach that integrates feedback loss from a bi-modal sarcasm detection\nmodel into the TTS training process, enhancing the model's ability to capture\nand convey sarcasm. In addition, by leveraging transfer learning, a speech\nsynthesis model pre-trained on read speech undergoes a two-stage fine-tuning\nprocess. First, it is fine-tuned on a diverse dataset encompassing various\nspeech styles, including sarcastic speech. In the second stage, the model is\nfurther refined using a dataset focused specifically on sarcastic speech,\nenhancing its ability to generate sarcasm-aware speech. Objective and\nsubjective evaluations demonstrate that our proposed methods improve the\nquality, naturalness, and sarcasm-awareness of synthesized speech.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Integrating Feedback Loss"
+  },
+  {
+    "paper_title": "Sampling-based speech parameter generation using moment-matching\n  networks",
+    "arxiv_link": "http://arxiv.org/abs/1704.03626v1",
+    "arxiv_id": "1704.03626v1",
+    "publication_year": 2017,
+    "authors": [
+      "Shinnosuke Takamichi",
+      "Tomoki Koriyama",
+      "Hiroshi Saruwatari"
+    ],
+    "summary": "This paper presents sampling-based speech parameter generation using\nmoment-matching networks for Deep Neural Network (DNN)-based speech synthesis.\nAlthough people never produce exactly the same speech even if we try to express\nthe same linguistic and para-linguistic information, typical statistical speech\nsynthesis produces completely the same speech, i.e., there is no\ninter-utterance variation in synthetic speech. To give synthetic speech natural\ninter-utterance variation, this paper builds DNN acoustic models that make it\npossible to randomly sample speech parameters. The DNNs are trained so that\nthey make the moments of generated speech parameters close to those of natural\nspeech parameters. Since the variation of speech parameters is compressed into\na low-dimensional simple prior noise vector, our algorithm has lower\ncomputation cost than direct sampling of speech parameters. As the first step\ntowards generating synthetic speech that has natural inter-utterance variation,\nthis paper investigates whether or not the proposed sampling-based generation\ndeteriorates synthetic speech quality. In evaluation, we compare speech quality\nof conventional maximum likelihood-based generation and proposed sampling-based\ngeneration. The result demonstrates the proposed generation causes no\ndegradation in speech quality.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Sampling-based speech parameter"
+  },
+  {
+    "paper_title": "Neural Speech Embeddings for Speech Synthesis Based on Deep Generative\n  Networks",
+    "arxiv_link": "http://arxiv.org/abs/2312.05814v2",
+    "arxiv_id": "2312.05814v2",
+    "publication_year": 2023,
+    "authors": [
+      "Seo-Hyun Lee",
+      "Young-Eun Lee",
+      "Soowon Kim",
+      "Byung-Kwan Ko",
+      "Jun-Young Kim",
+      "Seong-Whan Lee"
+    ],
+    "summary": "Brain-to-speech technology represents a fusion of interdisciplinary\napplications encompassing fields of artificial intelligence, brain-computer\ninterfaces, and speech synthesis. Neural representation learning based\nintention decoding and speech synthesis directly connects the neural activity\nto the means of human linguistic communication, which may greatly enhance the\nnaturalness of communication. With the current discoveries on representation\nlearning and the development of the speech synthesis technologies, direct\ntranslation of brain signals into speech has shown great promise. Especially,\nthe processed input features and neural speech embeddings which are given to\nthe neural network play a significant role in the overall performance when\nusing deep generative models for speech generation from brain signals. In this\npaper, we introduce the current brain-to-speech technology with the possibility\nof speech synthesis from brain signals, which may ultimately facilitate\ninnovation in non-verbal communication. Also, we perform comprehensive analysis\non the neural features and neural speech embeddings underlying the\nneurophysiological activation while performing speech, which may play a\nsignificant role in the speech synthesis works.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Neural Speech Embeddings"
+  },
+  {
+    "paper_title": "JSUT corpus: free large-scale Japanese speech corpus for end-to-end\n  speech synthesis",
+    "arxiv_link": "http://arxiv.org/abs/1711.00354v1",
+    "arxiv_id": "1711.00354v1",
+    "publication_year": 2017,
+    "authors": [
+      "Ryosuke Sonobe",
+      "Shinnosuke Takamichi",
+      "Hiroshi Saruwatari"
+    ],
+    "summary": "Thanks to improvements in machine learning techniques including deep\nlearning, a free large-scale speech corpus that can be shared between academic\ninstitutions and commercial companies has an important role. However, such a\ncorpus for Japanese speech synthesis does not exist. In this paper, we designed\na novel Japanese speech corpus, named the \"JSUT corpus,\" that is aimed at\nachieving end-to-end speech synthesis. The corpus consists of 10 hours of\nreading-style speech data and its transcription and covers all of the main\npronunciations of daily-use Japanese characters. In this paper, we describe how\nwe designed and analyzed the corpus. The corpus is freely available online.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "JSUT corpus: free"
+  },
+  {
+    "paper_title": "How Similar or Different Is Rakugo Speech Synthesizer to Professional\n  Performers?",
+    "arxiv_link": "http://arxiv.org/abs/2010.11549v1",
+    "arxiv_id": "2010.11549v1",
+    "publication_year": 2020,
+    "authors": [
+      "Shuhei Kato",
+      "Yusuke Yasuda",
+      "Xin Wang",
+      "Erica Cooper",
+      "Junichi Yamagishi"
+    ],
+    "summary": "We have been working on speech synthesis for rakugo (a traditional Japanese\nform of verbal entertainment similar to one-person stand-up comedy) toward\nspeech synthesis that authentically entertains audiences. In this paper, we\npropose a novel evaluation methodology using synthesized rakugo speech and real\nrakugo speech uttered by professional performers of three different ranks. The\nnaturalness of the synthesized speech was comparable to that of the human\nspeech, but the synthesized speech entertained listeners less than the\nperformers of any rank. However, we obtained some interesting insights into\nchallenges to be solved in order to achieve a truly entertaining rakugo\nsynthesizer. For example, naturalness was not the most important factor, even\nthough it has generally been emphasized as the most important point to be\nevaluated in the conventional speech synthesis field. More important factors\nwere the understandability of the content and distinguishability of the\ncharacters in the rakugo story, both of which the synthesized rakugo speech was\nrelatively inferior at as compared with the professional performers. We also\nfound that fundamental frequency fo modeling should be further improved to\nbetter entertain audiences. These results show important steps to reaching\nauthentically entertaining speech synthesis.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "How Similar or"
+  },
+  {
+    "paper_title": "Improving robustness of spontaneous speech synthesis with linguistic\n  speech regularization and pseudo-filled-pause insertion",
+    "arxiv_link": "http://arxiv.org/abs/2210.09815v3",
+    "arxiv_id": "2210.09815v3",
+    "publication_year": 2022,
+    "authors": [
+      "Yuta Matsunaga",
+      "Takaaki Saeki",
+      "Shinnosuke Takamichi",
+      "Hiroshi Saruwatari"
+    ],
+    "summary": "We present a training method with linguistic speech regularization that\nimproves the robustness of spontaneous speech synthesis methods with filled\npause (FP) insertion. Spontaneous speech synthesis is aimed at producing speech\nwith human-like disfluencies, such as FPs. Because modeling the complex data\ndistribution of spontaneous speech with a rich FP vocabulary is challenging,\nthe quality of FP-inserted synthetic speech is often limited. To address this\nissue, we present a method for synthesizing spontaneous speech that improves\nrobustness to diverse FP insertions. Regularization is used to stabilize the\nsynthesis of the linguistic speech (i.e., non-FP) elements. To further improve\nrobustness to diverse FP insertions, it utilizes pseudo-FPs sampled using an FP\nword prediction model as well as ground-truth FPs. Our experiments demonstrated\nthat the proposed method improves the naturalness of synthetic speech with\nground-truth and predicted FPs by 0.24 and 0.26, respectively.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Improving robustness of"
+  },
+  {
+    "paper_title": "Voice Cloning: Comprehensive Survey",
+    "arxiv_link": "http://arxiv.org/abs/2505.00579v1",
+    "arxiv_id": "2505.00579v1",
+    "publication_year": 2025,
+    "authors": [
+      "Hussam Azzuni",
+      "Abdulmotaleb El Saddik"
+    ],
+    "summary": "Voice Cloning has rapidly advanced in today's digital world, with many\nresearchers and corporations working to improve these algorithms for various\napplications. This article aims to establish a standardized terminology for\nvoice cloning and explore its different variations. It will cover speaker\nadaptation as the fundamental concept and then delve deeper into topics such as\nfew-shot, zero-shot, and multilingual TTS within that context. Finally, we will\nexplore the evaluation metrics commonly used in voice cloning research and\nrelated datasets. This survey compiles the available voice cloning algorithms\nto encourage research toward its generation and detection to limit its misuse.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Voice Cloning: Comprehensive"
+  },
+  {
+    "paper_title": "Improve few-shot voice cloning using multi-modal learning",
+    "arxiv_link": "http://arxiv.org/abs/2203.09708v1",
+    "arxiv_id": "2203.09708v1",
+    "publication_year": 2022,
+    "authors": [
+      "Haitong Zhang",
+      "Yue Lin"
+    ],
+    "summary": "Recently, few-shot voice cloning has achieved a significant improvement.\nHowever, most models for few-shot voice cloning are single-modal, and\nmulti-modal few-shot voice cloning has been understudied. In this paper, we\npropose to use multi-modal learning to improve the few-shot voice cloning\nperformance. Inspired by the recent works on unsupervised speech\nrepresentation, the proposed multi-modal system is built by extending Tacotron2\nwith an unsupervised speech representation module. We evaluate our proposed\nsystem in two few-shot voice cloning scenarios, namely few-shot\ntext-to-speech(TTS) and voice conversion(VC). Experimental results demonstrate\nthat the proposed multi-modal learning can significantly improve the few-shot\nvoice cloning performance over their counterpart single-modal systems.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Improve few-shot voice"
+  },
+  {
+    "paper_title": "Personalized Lightweight Text-to-Speech: Voice Cloning with Adaptive\n  Structured Pruning",
+    "arxiv_link": "http://arxiv.org/abs/2303.11816v1",
+    "arxiv_id": "2303.11816v1",
+    "publication_year": 2023,
+    "authors": [
+      "Sung-Feng Huang",
+      "Chia-ping Chen",
+      "Zhi-Sheng Chen",
+      "Yu-Pao Tsai",
+      "Hung-yi Lee"
+    ],
+    "summary": "Personalized TTS is an exciting and highly desired application that allows\nusers to train their TTS voice using only a few recordings. However, TTS\ntraining typically requires many hours of recording and a large model, making\nit unsuitable for deployment on mobile devices. To overcome this limitation,\nrelated works typically require fine-tuning a pre-trained TTS model to preserve\nits ability to generate high-quality audio samples while adapting to the target\nspeaker's voice. This process is commonly referred to as ``voice cloning.''\nAlthough related works have achieved significant success in changing the TTS\nmodel's voice, they are still required to fine-tune from a large pre-trained\nmodel, resulting in a significant size for the voice-cloned model. In this\npaper, we propose applying trainable structured pruning to voice cloning. By\ntraining the structured pruning masks with voice-cloning data, we can produce a\nunique pruned model for each target speaker. Our experiments demonstrate that\nusing learnable structured pruning, we can compress the model size to 7 times\nsmaller while achieving comparable voice-cloning performance.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Personalized Lightweight Text-to-Speech:"
+  },
+  {
+    "paper_title": "Expressive Neural Voice Cloning",
+    "arxiv_link": "http://arxiv.org/abs/2102.00151v1",
+    "arxiv_id": "2102.00151v1",
+    "publication_year": 2021,
+    "authors": [
+      "Paarth Neekhara",
+      "Shehzeen Hussain",
+      "Shlomo Dubnov",
+      "Farinaz Koushanfar",
+      "Julian McAuley"
+    ],
+    "summary": "Voice cloning is the task of learning to synthesize the voice of an unseen\nspeaker from a few samples. While current voice cloning methods achieve\npromising results in Text-to-Speech (TTS) synthesis for a new voice, these\napproaches lack the ability to control the expressiveness of synthesized audio.\nIn this work, we propose a controllable voice cloning method that allows\nfine-grained control over various style aspects of the synthesized speech for\nan unseen speaker. We achieve this by explicitly conditioning the speech\nsynthesis model on a speaker encoding, pitch contour and latent style tokens\nduring training. Through both quantitative and qualitative evaluations, we show\nthat our framework can be used for various expressive voice cloning tasks using\nonly a few transcribed or untranscribed speech samples for a new speaker. These\ncloning tasks include style transfer from a reference speech, synthesizing\nspeech directly from text, and fine-grained style control by manipulating the\nstyle conditioning variables during inference.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Expressive Neural Voice"
+  },
+  {
+    "paper_title": "Pronunciation Deviation Analysis Through Voice Cloning and Acoustic\n  Comparison",
+    "arxiv_link": "http://arxiv.org/abs/2507.10985v1",
+    "arxiv_id": "2507.10985v1",
+    "publication_year": 2025,
+    "authors": [
+      "Andrew Valdivia",
+      "Yueming Zhang",
+      "Hailu Xu",
+      "Amir Ghasemkhani",
+      "Xin Qin"
+    ],
+    "summary": "This paper presents a novel approach for detecting mispronunciations by\nanalyzing deviations between a user's original speech and their voice-cloned\ncounterpart with corrected pronunciation. We hypothesize that regions with\nmaximal acoustic deviation between the original and cloned utterances indicate\npotential mispronunciations. Our method leverages recent advances in voice\ncloning to generate a synthetic version of the user's voice with proper\npronunciation, then performs frame-by-frame comparisons to identify problematic\nsegments. Experimental results demonstrate the effectiveness of this approach\nin pinpointing specific pronunciation errors without requiring predefined\nphonetic rules or extensive training data for each target language.",
+    "system_type": "Voice Cloning",
+    "metrics": [],
+    "model_name": "Pronunciation Deviation Analysis"
+  },
+  {
+    "paper_title": "OpenVoice: Versatile Instant Voice Cloning",
+    "arxiv_link": "http://arxiv.org/abs/2312.01479v6",
+    "arxiv_id": "2312.01479v6",
+    "publication_year": 2023,
+    "authors": [
+      "Zengyi Qin",
+      "Wenliang Zhao",
+      "Xumin Yu",
+      "Xin Sun"
+    ],
+    "summary": "We introduce OpenVoice, a versatile voice cloning approach that requires only\na short audio clip from the reference speaker to replicate their voice and\ngenerate speech in multiple languages. OpenVoice represents a significant\nadvancement in addressing the following open challenges in the field: 1)\nFlexible Voice Style Control. OpenVoice enables granular control over voice\nstyles, including emotion, accent, rhythm, pauses, and intonation, in addition\nto replicating the tone color of the reference speaker. The voice styles are\nnot directly copied from and constrained by the style of the reference speaker.\nPrevious approaches lacked the ability to flexibly manipulate voice styles\nafter cloning. 2) Zero-Shot Cross-Lingual Voice Cloning. OpenVoice achieves\nzero-shot cross-lingual voice cloning for languages not included in the\nmassive-speaker training set. Unlike previous approaches, which typically\nrequire extensive massive-speaker multi-lingual (MSML) dataset for all\nlanguages, OpenVoice can clone voices into a new language without any\nmassive-speaker training data for that language. OpenVoice is also\ncomputationally efficient, costing tens of times less than commercially\navailable APIs that offer even inferior performance. To foster further research\nin the field, we have made the source code and trained model publicly\naccessible. We also provide qualitative results in our demo website. OpenVoice\nhas been used by more than 2M users worldwide as the voice engine of MyShell.ai",
+    "system_type": "Voice Cloning",
+    "metrics": [],
+    "model_name": "OpenVoice: Versatile Instant"
+  },
+  {
+    "paper_title": "Detecting Voice Cloning Attacks via Timbre Watermarking",
+    "arxiv_link": "http://arxiv.org/abs/2312.03410v1",
+    "arxiv_id": "2312.03410v1",
+    "publication_year": 2023,
+    "authors": [
+      "Chang Liu",
+      "Jie Zhang",
+      "Tianwei Zhang",
+      "Xi Yang",
+      "Weiming Zhang",
+      "Nenghai Yu"
+    ],
+    "summary": "Nowadays, it is common to release audio content to the public. However, with\nthe rise of voice cloning technology, attackers have the potential to easily\nimpersonate a specific person by utilizing his publicly released audio without\nany permission. Therefore, it becomes significant to detect any potential\nmisuse of the released audio content and protect its timbre from being\nimpersonated. To this end, we introduce a novel concept, \"Timbre Watermarking\",\nwhich embeds watermark information into the target individual's speech,\neventually defeating the voice cloning attacks. To ensure the watermark is\nrobust to the voice cloning model's learning process, we design an end-to-end\nvoice cloning-resistant detection framework. The core idea of our solution is\nto embed and extract the watermark in the frequency domain in a temporally\ninvariant manner. To acquire generalization across different voice cloning\nattacks, we modulate their shared process and integrate it into our framework\nas a distortion layer. Experiments demonstrate that the proposed timbre\nwatermarking can defend against different voice cloning attacks, exhibit strong\nresistance against various adaptive attacks (e.g., reconstruction-based removal\nattacks, watermark overwriting attacks), and achieve practicality in real-world\nservices such as PaddleSpeech, Voice-Cloning-App, and so-vits-svc. In addition,\nablation studies are also conducted to verify the effectiveness of our design.\nSome audio samples are available at\nhttps://timbrewatermarking.github.io/samples.",
+    "system_type": "Voice Cloning",
+    "metrics": [],
+    "model_name": "Detecting Voice Cloning"
+  },
+  {
+    "paper_title": "Securing Voice-driven Interfaces against Fake (Cloned) Audio Attacks",
+    "arxiv_link": "http://arxiv.org/abs/1902.06782v1",
+    "arxiv_id": "1902.06782v1",
+    "publication_year": 2019,
+    "authors": [
+      "Hafiz Malik"
+    ],
+    "summary": "Voice cloning technologies have found applications in a variety of areas\nranging from personalized speech interfaces to advertisement, robotics, and so\non. Existing voice cloning systems are capable of learning speaker\ncharacteristics and use trained models to synthesize a person's voice from only\na few audio samples. Advances in cloned speech generation technologies are\ncapable of generating perceptually indistinguishable speech from a bona-fide\nspeech. These advances pose new security and privacy threats to voice-driven\ninterfaces and speech-based access control systems. The state-of-the-art speech\nsynthesis technologies use trained or tuned generative models for cloned speech\ngeneration. Trained generative models rely on linear operations, learned\nweights, and excitation source for cloned speech synthesis. These systems leave\ncharacteristic artifacts in the synthesized speech. Higher-order spectral\nanalysis is used to capture differentiating attributes between bona-fide and\ncloned audios. Specifically, quadrature phase coupling (QPC) in the estimated\nbicoherence, Gaussianity test statistics, and linearity test statistics are\nused to capture generative model artifacts. Performance of the proposed method\nis evaluated on cloned audios generated using speaker adaptation- and speaker\nencoding-based approaches. Experimental results for a dataset consisting of 126\ncloned speech and 8 bona-fide speech samples indicate that the proposed method\nis capable of detecting bona-fide and cloned audios with close to a perfect\ndetection rate.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Securing Voice-driven Interfaces"
+  },
+  {
+    "paper_title": "Meta-Voice: Fast few-shot style transfer for expressive voice cloning\n  using meta learning",
+    "arxiv_link": "http://arxiv.org/abs/2111.07218v1",
+    "arxiv_id": "2111.07218v1",
+    "publication_year": 2021,
+    "authors": [
+      "Songxiang Liu",
+      "Dan Su",
+      "Dong Yu"
+    ],
+    "summary": "The task of few-shot style transfer for voice cloning in text-to-speech (TTS)\nsynthesis aims at transferring speaking styles of an arbitrary source speaker\nto a target speaker's voice using very limited amount of neutral data. This is\na very challenging task since the learning algorithm needs to deal with\nfew-shot voice cloning and speaker-prosody disentanglement at the same time.\nAccelerating the adaptation process for a new target speaker is of importance\nin real-world applications, but even more challenging. In this paper, we\napproach to the hard fast few-shot style transfer for voice cloning task using\nmeta learning. We investigate the model-agnostic meta-learning (MAML) algorithm\nand meta-transfer a pre-trained multi-speaker and multi-prosody base TTS model\nto be highly sensitive for adaptation with few samples. Domain adversarial\ntraining mechanism and orthogonal constraint are adopted to disentangle speaker\nand prosody representations for effective cross-speaker style transfer.\nExperimental results show that the proposed approach is able to conduct fast\nvoice cloning using only 5 samples (around 12 second speech data) from a target\nspeaker, with only 100 adaptation steps. Audio samples are available online.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Meta-Voice: Fast few-shot"
+  },
+  {
+    "paper_title": "Single and Multi-Speaker Cloned Voice Detection: From Perceptual to\n  Learned Features",
+    "arxiv_link": "http://arxiv.org/abs/2307.07683v2",
+    "arxiv_id": "2307.07683v2",
+    "publication_year": 2023,
+    "authors": [
+      "Sarah Barrington",
+      "Romit Barua",
+      "Gautham Koorma",
+      "Hany Farid"
+    ],
+    "summary": "Synthetic-voice cloning technologies have seen significant advances in recent\nyears, giving rise to a range of potential harms. From small- and large-scale\nfinancial fraud to disinformation campaigns, the need for reliable methods to\ndifferentiate real and synthesized voices is imperative. We describe three\ntechniques for differentiating a real from a cloned voice designed to\nimpersonate a specific person. These three approaches differ in their feature\nextraction stage with low-dimensional perceptual features offering high\ninterpretability but lower accuracy, to generic spectral features, and\nend-to-end learned features offering less interpretability but higher accuracy.\nWe show the efficacy of these approaches when trained on a single speaker's\nvoice and when trained on multiple voices. The learned features consistently\nyield an equal error rate between 0% and 4%, and are reasonably robust to\nadversarial laundering.",
+    "system_type": "Voice Cloning",
+    "metrics": [],
+    "model_name": "Single and Multi-Speaker"
+  },
+  {
+    "paper_title": "Latent linguistic embedding for cross-lingual text-to-speech and voice\n  conversion",
+    "arxiv_link": "http://arxiv.org/abs/2010.03717v1",
+    "arxiv_id": "2010.03717v1",
+    "publication_year": 2020,
+    "authors": [
+      "Hieu-Thi Luong",
+      "Junichi Yamagishi"
+    ],
+    "summary": "As the recently proposed voice cloning system, NAUTILUS, is capable of\ncloning unseen voices using untranscribed speech, we investigate the\nfeasibility of using it to develop a unified cross-lingual TTS/VC system.\nCross-lingual speech generation is the scenario in which speech utterances are\ngenerated with the voices of target speakers in a language not spoken by them\noriginally. This type of system is not simply cloning the voice of the target\nspeaker, but essentially creating a new voice that can be considered better\nthan the original under a specific framing. By using a well-trained English\nlatent linguistic embedding to create a cross-lingual TTS and VC system for\nseveral German, Finnish, and Mandarin speakers included in the Voice Conversion\nChallenge 2020, we show that our method not only creates cross-lingual VC with\nhigh speaker similarity but also can be seamlessly used for cross-lingual TTS\nwithout having to perform any extra steps. However, the subjective evaluations\nof perceived naturalness seemed to vary between target speakers, which is one\naspect for future improvement.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Latent linguistic embedding"
+  },
+  {
+    "paper_title": "Voice Cloning for Dysarthric Speech Synthesis: Addressing Data Scarcity\n  in Speech-Language Pathology",
+    "arxiv_link": "http://arxiv.org/abs/2503.01266v1",
+    "arxiv_id": "2503.01266v1",
+    "publication_year": 2025,
+    "authors": [
+      "Birger Moell",
+      "Fredrik Sand Aronsson"
+    ],
+    "summary": "This study explores voice cloning to generate synthetic speech replicating\nthe unique patterns of individuals with dysarthria. Using the TORGO dataset, we\naddress data scarcity and privacy challenges in speech-language pathology. Our\ncontributions include demonstrating that voice cloning preserves dysarthric\nspeech characteristics, analyzing differences between real and synthetic data,\nand discussing implications for diagnostics, rehabilitation, and communication.\nWe cloned voices from dysarthric and control speakers using a commercial\nplatform, ensuring gender-matched synthetic voices. A licensed speech-language\npathologist (SLP) evaluated a subset for dysarthria, speaker gender, and\nsynthetic indicators. The SLP correctly identified dysarthria in all cases and\nspeaker gender in 95% but misclassified 30% of synthetic samples as real,\nindicating high realism. Our results suggest synthetic speech effectively\ncaptures disordered characteristics and that voice cloning has advanced to\nproduce high-quality data resembling real speech, even to trained\nprofessionals. This has critical implications for healthcare, where synthetic\ndata can mitigate data scarcity, protect privacy, and enhance AI-driven\ndiagnostics. By enabling the creation of diverse, high-quality speech datasets,\nvoice cloning can improve generalizable models, personalize therapy, and\nadvance assistive technologies for dysarthria.\n  We publicly release our synthetic dataset to foster further research and\ncollaboration, aiming to develop robust models that improve patient outcomes in\nspeech-language pathology.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Voice Cloning for"
+  },
+  {
+    "paper_title": "Neural Voice Cloning with a Few Samples",
+    "arxiv_link": "http://arxiv.org/abs/1802.06006v3",
+    "arxiv_id": "1802.06006v3",
+    "publication_year": 2018,
+    "authors": [
+      "Sercan O. Arik",
+      "Jitong Chen",
+      "Kainan Peng",
+      "Wei Ping",
+      "Yanqi Zhou"
+    ],
+    "summary": "Voice cloning is a highly desired feature for personalized speech interfaces.\nNeural network based speech synthesis has been shown to generate high quality\nspeech for a large number of speakers. In this paper, we introduce a neural\nvoice cloning system that takes a few audio samples as input. We study two\napproaches: speaker adaptation and speaker encoding. Speaker adaptation is\nbased on fine-tuning a multi-speaker generative model with a few cloning\nsamples. Speaker encoding is based on training a separate model to directly\ninfer a new speaker embedding from cloning audios and to be used with a\nmulti-speaker generative model. In terms of naturalness of the speech and its\nsimilarity to original speaker, both approaches can achieve good performance,\neven with very few cloning audios. While speaker adaptation can achieve better\nnaturalness and similarity, the cloning time or required memory for the speaker\nencoding approach is significantly less, making it favorable for low-resource\ndeployment.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Neural Voice Cloning"
+  },
+  {
+    "paper_title": "ClonEval: An Open Voice Cloning Benchmark",
+    "arxiv_link": "http://arxiv.org/abs/2504.20581v3",
+    "arxiv_id": "2504.20581v3",
+    "publication_year": 2025,
+    "authors": [
+      "Iwona Christop",
+      "Tomasz Kuczyński",
+      "Marek Kubis"
+    ],
+    "summary": "We present a novel benchmark for voice cloning text-to-speech models. The\nbenchmark consists of an evaluation protocol, an open-source library for\nassessing the performance of voice cloning models, and an accompanying\nleaderboard. The paper discusses design considerations and presents a detailed\ndescription of the evaluation procedure. The usage of the software library is\nexplained, along with the organization of results on the leaderboard.",
+    "system_type": "Voice Cloning",
+    "metrics": [],
+    "model_name": "ClonEval: An Open"
+  },
+  {
+    "paper_title": "The Multi-speaker Multi-style Voice Cloning Challenge 2021",
+    "arxiv_link": "http://arxiv.org/abs/2104.01818v1",
+    "arxiv_id": "2104.01818v1",
+    "publication_year": 2021,
+    "authors": [
+      "Qicong Xie",
+      "Xiaohai Tian",
+      "Guanghou Liu",
+      "Kun Song",
+      "Lei Xie",
+      "Zhiyong Wu",
+      "Hai Li",
+      "Song Shi",
+      "Haizhou Li",
+      "Fen Hong",
+      "Hui Bu",
+      "Xin Xu"
+    ],
+    "summary": "The Multi-speaker Multi-style Voice Cloning Challenge (M2VoC) aims to provide\na common sizable dataset as well as a fair testbed for the benchmarking of the\npopular voice cloning task. Specifically, we formulate the challenge to adapt\nan average TTS model to the stylistic target voice with limited data from\ntarget speaker, evaluated by speaker identity and style similarity. The\nchallenge consists of two tracks, namely few-shot track and one-shot track,\nwhere the participants are required to clone multiple target voices with 100\nand 5 samples respectively. There are also two sub-tracks in each track. For\nsub-track a, to fairly compare different strategies, the participants are\nallowed to use only the training data provided by the organizer strictly. For\nsub-track b, the participants are allowed to use any data publicly available.\nIn this paper, we present a detailed explanation on the tasks and data used in\nthe challenge, followed by a summary of submitted systems and evaluation\nresults.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "The Multi-speaker Multi-style"
+  },
+  {
+    "paper_title": "Data Efficient Voice Cloning for Neural Singing Synthesis",
+    "arxiv_link": "http://arxiv.org/abs/1902.07292v1",
+    "arxiv_id": "1902.07292v1",
+    "publication_year": 2019,
+    "authors": [
+      "Merlijn Blaauw",
+      "Jordi Bonada",
+      "Ryunosuke Daido"
+    ],
+    "summary": "There are many use cases in singing synthesis where creating voices from\nsmall amounts of data is desirable. In text-to-speech there have been several\npromising results that apply voice cloning techniques to modern deep learning\nbased models. In this work, we adapt one such technique to the case of singing\nsynthesis. By leveraging data from many speakers to first create a multispeaker\nmodel, small amounts of target data can then efficiently adapt the model to new\nunseen voices. We evaluate the system using listening tests across a number of\ndifferent use cases, languages and kinds of data.",
+    "system_type": "Voice Cloning",
+    "metrics": [],
+    "model_name": "Data Efficient Voice"
+  },
+  {
+    "paper_title": "Learning Through AI-Clones: Enhancing Self-Perception and Presentation\n  Performance",
+    "arxiv_link": "http://arxiv.org/abs/2310.15112v2",
+    "arxiv_id": "2310.15112v2",
+    "publication_year": 2023,
+    "authors": [
+      "Qingxiao Zheng",
+      "Zhuoer Chen",
+      "Yun Huang"
+    ],
+    "summary": "This study examines the impact of AI-generated digital clones with\nself-images on enhancing perceptions and skills in online presentations. A\nmixed-design experiment with 44 international students compared self-recording\nvideos (self-recording group) to AI-clone videos (AI-clone group) for online\nEnglish presentation practice. AI-clone videos were generated using voice\ncloning, face swapping, lip-syncing, and body-language simulation, refining the\nrepetition, filler words, and pronunciation of participants' original\npresentations. Through the lens of social comparison theory, the results showed\nthat AI clones functioned as positive \"role models\" for facilitating social\ncomparisons. When comparing the effects on self-perceptions, speech qualities,\nand self-kindness, the self-recording group showed an increase in pronunciation\nsatisfaction. However, the AI-clone group exhibited greater self-kindness,\nbroader observational coverage, and a meaningful transition from a corrective\nto an enhancive approach in self-critique. Moreover, machine-rated scores\nrevealed immediate performance gains only within the AI-clone group.\nConsidering individual differences, aligning interventions with participants'\nregulatory focus significantly enhanced their learning experience. These\nfindings highlight the theoretical, practical, and ethical implications of AI\nclones in supporting emotional and cognitive skill development.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Learning Through AI-Clones:"
+  },
+  {
+    "paper_title": "Spoken Language Corpora Augmentation with Domain-Specific Voice-Cloned\n  Speech",
+    "arxiv_link": "http://arxiv.org/abs/2406.07090v2",
+    "arxiv_id": "2406.07090v2",
+    "publication_year": 2024,
+    "authors": [
+      "Mateusz Czyżnikiewicz",
+      "Łukasz Bondaruk",
+      "Jakub Kubiak",
+      "Adam Wiącek",
+      "Łukasz Degórski",
+      "Marek Kubis",
+      "Paweł Skórzewski"
+    ],
+    "summary": "In this paper we study the impact of augmenting spoken language corpora with\ndomain-specific synthetic samples for the purpose of training a speech\nrecognition system. Using both a conventional neural TTS system and a zero-shot\none with voice cloning ability we generate speech corpora that vary in the\nnumber of voices. We compare speech recognition models trained with addition of\ndifferent amounts of synthetic data generated using these two methods with a\nbaseline model trained solely on voice recordings. We show that while the\nquality of voice-cloned dataset is lower, its increased multivoiceity makes it\nmuch more effective than the one with only a few voices synthesized with the\nuse of a conventional neural TTS system. Furthermore, our experiments indicate\nthat using low variability synthetic speech quickly leads to saturation in the\nquality of the ASR whereas high variability speech provides improvement even\nwhen increasing total amount of data used for training by 30%.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Spoken Language Corpora"
+  },
+  {
+    "paper_title": "Preset-Voice Matching for Privacy Regulated Speech-to-Speech Translation\n  Systems",
+    "arxiv_link": "http://arxiv.org/abs/2407.13153v1",
+    "arxiv_id": "2407.13153v1",
+    "publication_year": 2024,
+    "authors": [
+      "Daniel Platnick",
+      "Bishoy Abdelnour",
+      "Eamon Earl",
+      "Rahul Kumar",
+      "Zahra Rezaei",
+      "Thomas Tsangaris",
+      "Faraj Lagum"
+    ],
+    "summary": "In recent years, there has been increased demand for speech-to-speech\ntranslation (S2ST) systems in industry settings. Although successfully\ncommercialized, cloning-based S2ST systems expose their distributors to\nliabilities when misused by individuals and can infringe on personality rights\nwhen exploited by media organizations. This work proposes a regulated S2ST\nframework called Preset-Voice Matching (PVM). PVM removes cross-lingual voice\ncloning in S2ST by first matching the input voice to a similar prior consenting\nspeaker voice in the target-language. With this separation, PVM avoids cloning\nthe input speaker, ensuring PVM systems comply with regulations and reduce risk\nof misuse. Our results demonstrate PVM can significantly improve S2ST system\nrun-time in multi-speaker settings and the naturalness of S2ST synthesized\nspeech. To our knowledge, PVM is the first explicitly regulated S2ST framework\nleveraging similarly-matched preset-voices for dynamic S2ST tasks.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "Preset-Voice Matching for"
+  },
+  {
+    "paper_title": "Advancing Voice Cloning for Nepali: Leveraging Transfer Learning in a\n  Low-Resource Language",
+    "arxiv_link": "http://arxiv.org/abs/2408.10128v2",
+    "arxiv_id": "2408.10128v2",
+    "publication_year": 2024,
+    "authors": [
+      "Manjil Karki",
+      "Pratik Shakya",
+      "Sandesh Acharya",
+      "Ravi Pandit",
+      "Dinesh Gothe"
+    ],
+    "summary": "Voice cloning is a prominent feature in personalized speech interfaces. A\nneural vocal cloning system can mimic someone's voice using just a few audio\nsamples. Both speaker encoding and speaker adaptation are topics of research in\nthe field of voice cloning. Speaker adaptation relies on fine-tuning a\nmulti-speaker generative model, which involves training a separate model to\ninfer a new speaker embedding used for speaker encoding. Both methods can\nachieve excellent performance, even with a small number of cloning audios, in\nterms of the speech's naturalness and similarity to the original speaker.\nSpeaker encoding approaches are more appropriate for low-resource deployment\nsince they require significantly less memory and have a faster cloning time\nthan speaker adaption, which can offer slightly greater naturalness and\nsimilarity. The main goal is to create a vocal cloning system that produces\naudio output with a Nepali accent or that sounds like Nepali. For the further\nadvancement of TTS, the idea of transfer learning was effectively used to\naddress several issues that were encountered in the development of this system,\nincluding the poor audio quality and the lack of available data.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "Advancing Voice Cloning"
+  },
+  {
+    "paper_title": "Leveraging Self-Supervised Models for Automatic Whispered Speech\n  Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2407.21211v2",
+    "arxiv_id": "2407.21211v2",
+    "publication_year": 2024,
+    "authors": [
+      "Aref Farhadipour",
+      "Homa Asadi",
+      "Volker Dellwo"
+    ],
+    "summary": "In automatic speech recognition, any factor that alters the acoustic\nproperties of speech can pose a challenge to the system's performance. This\npaper presents a novel approach for automatic whispered speech recognition in\nthe Irish dialect using the self-supervised WavLM model. Conventional automatic\nspeech recognition systems often fail to accurately recognise whispered speech\ndue to its distinct acoustic properties and the scarcity of relevant training\ndata. To address this challenge, we utilized a pre-trained WavLM model,\nfine-tuned with a combination of whispered and normal speech data from the\nwTIMIT and CHAINS datasets, which include the English language in Singaporean\nand Irish dialects, respectively. Our baseline evaluation with the OpenAI\nWhisper model highlighted its limitations, achieving a Word Error Rate (WER) of\n18.8% and a Character Error Rate (CER) of 4.24% on whispered speech. In\ncontrast, the proposed WavLM-based system significantly improved performance,\nachieving a WER of 9.22% and a CER of 2.59%. These results demonstrate the\nefficacy of our approach in recognising whispered speech and underscore the\nimportance of tailored acoustic modeling for robust automatic speech\nrecognition systems. This study provides valuable insights into developing\neffective automatic speech recognition solutions for challenging speech\naffected by whisper and dialect. The source codes for this paper are freely\navailable.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Whisper"
+  },
+  {
+    "paper_title": "On using the UA-Speech and TORGO databases to validate automatic\n  dysarthric speech classification approaches",
+    "arxiv_link": "http://arxiv.org/abs/2211.08833v1",
+    "arxiv_id": "2211.08833v1",
+    "publication_year": 2022,
+    "authors": [
+      "Guilherme Schu",
+      "Parvaneh Janbakhshi",
+      "Ina Kodrasi"
+    ],
+    "summary": "Although the UA-Speech and TORGO databases of control and dysarthric speech\nare invaluable resources made available to the research community with the\nobjective of developing robust automatic speech recognition systems, they have\nalso been used to validate a considerable number of automatic dysarthric speech\nclassification approaches. Such approaches typically rely on the underlying\nassumption that recordings from control and dysarthric speakers are collected\nin the same noiseless environment using the same recording setup. In this\npaper, we show that this assumption is violated for the UA-Speech and TORGO\ndatabases. Using voice activity detection to extract speech and non-speech\nsegments, we show that the majority of state-of-the-art dysarthria\nclassification approaches achieve the same or a considerably better performance\nwhen using the non-speech segments of these databases than when using the\nspeech segments. These results demonstrate that such approaches trained and\nvalidated on the UA-Speech and TORGO databases are potentially learning\ncharacteristics of the recording environment or setup rather than dysarthric\nspeech characteristics. We hope that these results raise awareness in the\nresearch community about the importance of the quality of recordings when\ndeveloping and evaluating automatic dysarthria classification approaches.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "On using the"
+  },
+  {
+    "paper_title": "End-to-End Neural Systems for Automatic Children Speech Recognition: An\n  Empirical Study",
+    "arxiv_link": "http://arxiv.org/abs/2102.09918v1",
+    "arxiv_id": "2102.09918v1",
+    "publication_year": 2021,
+    "authors": [
+      "Prashanth Gurunath Shivakumar",
+      "Shrikanth Narayanan"
+    ],
+    "summary": "A key desiderata for inclusive and accessible speech recognition technology\nis ensuring its robust performance to children's speech. Notably, this includes\nthe rapidly advancing neural network based end-to-end speech recognition\nsystems. Children speech recognition is more challenging due to the larger\nintra-inter speaker variability in terms of acoustic and linguistic\ncharacteristics compared to adult speech. Furthermore, the lack of adequate and\nappropriate children speech resources adds to the challenge of designing robust\nend-to-end neural architectures. This study provides a critical assessment of\nautomatic children speech recognition through an empirical study of\ncontemporary state-of-the-art end-to-end speech recognition systems. Insights\nare provided on the aspects of training data requirements, adaptation on\nchildren data, and the effect of children age, utterance lengths, different\narchitectures and loss functions for end-to-end systems and role of language\nmodels on the speech recognition performance.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "End-to-End Neural Systems"
+  },
+  {
+    "paper_title": "Sentiment-Aware Automatic Speech Recognition pre-training for enhanced\n  Speech Emotion Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2201.11826v1",
+    "arxiv_id": "2201.11826v1",
+    "publication_year": 2022,
+    "authors": [
+      "Ayoub Ghriss",
+      "Bo Yang",
+      "Viktor Rozgic",
+      "Elizabeth Shriberg",
+      "Chao Wang"
+    ],
+    "summary": "We propose a novel multi-task pre-training method for Speech Emotion\nRecognition (SER). We pre-train SER model simultaneously on Automatic Speech\nRecognition (ASR) and sentiment classification tasks to make the acoustic ASR\nmodel more ``emotion aware''. We generate targets for the sentiment\nclassification using text-to-sentiment model trained on publicly available\ndata. Finally, we fine-tune the acoustic ASR on emotion annotated speech data.\nWe evaluated the proposed approach on the MSP-Podcast dataset, where we\nachieved the best reported concordance correlation coefficient (CCC) of 0.41\nfor valence prediction.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Sentiment-Aware Automatic Speech"
+  },
+  {
+    "paper_title": "Aphasic Speech Recognition using a Mixture of Speech Intelligibility\n  Experts",
+    "arxiv_link": "http://arxiv.org/abs/2008.10788v1",
+    "arxiv_id": "2008.10788v1",
+    "publication_year": 2020,
+    "authors": [
+      "Matthew Perez",
+      "Zakaria Aldeneh",
+      "Emily Mower Provost"
+    ],
+    "summary": "Robust speech recognition is a key prerequisite for semantic feature\nextraction in automatic aphasic speech analysis. However, standard\none-size-fits-all automatic speech recognition models perform poorly when\napplied to aphasic speech. One reason for this is the wide range of speech\nintelligibility due to different levels of severity (i.e., higher severity\nlends itself to less intelligible speech). To address this, we propose a novel\nacoustic model based on a mixture of experts (MoE), which handles the varying\nintelligibility stages present in aphasic speech by explicitly defining\nseverity-based experts. At test time, the contribution of each expert is\ndecided by estimating speech intelligibility with a speech intelligibility\ndetector (SID). We show that our proposed approach significantly reduces phone\nerror rates across all severity stages in aphasic speech compared to a baseline\napproach that does not incorporate severity information into the modeling\nprocess.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Aphasic Speech Recognition"
+  },
+  {
+    "paper_title": "Precise Detection of Speech Endpoints Dynamically: A Wavelet Convolution\n  based approach",
+    "arxiv_link": "http://arxiv.org/abs/1804.06159v1",
+    "arxiv_id": "1804.06159v1",
+    "publication_year": 2018,
+    "authors": [
+      "Tanmoy Roy",
+      "Tshilidzi Marwala",
+      "Snehashish Chakraverty"
+    ],
+    "summary": "Precise detection of speech endpoints is an important factor which affects\nthe performance of the systems where speech utterances need to be extracted\nfrom the speech signal such as Automatic Speech Recognition (ASR) system.\nExisting endpoint detection (EPD) methods mostly uses Short-Term Energy (STE),\nZero-Crossing Rate (ZCR) based approaches and their variants. But STE and ZCR\nbased EPD algorithms often fail in the presence of Non-speech Sound Artifacts\n(NSAs) produced by the speakers. Algorithms based on pattern recognition and\nclassification techniques are also proposed but require labeled data for\ntraining. A new algorithm termed as Wavelet Convolution based Speech Endpoint\nDetection (WCSEPD) is proposed in this article to extract speech endpoints.\nWCSEPD decomposes the speech signal into high-frequency and low-frequency\ncomponents using wavelet convolution and computes entropy based thresholds for\nthe two frequency components. The low-frequency thresholds are used to extract\nvoiced speech segments, whereas the high-frequency thresholds are used to\nextract the unvoiced speech segments by filtering out the NSAs. WCSEPD does not\nrequire any labeled data for training and can automatically extract speech\nsegments. Experiment results show that the proposed algorithm precisely\nextracts speech endpoints in the presence of NSAs.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Precise Detection of"
+  },
+  {
+    "paper_title": "Time-Domain Speech Enhancement for Robust Automatic Speech Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2210.13318v3",
+    "arxiv_id": "2210.13318v3",
+    "publication_year": 2022,
+    "authors": [
+      "Yufeng Yang",
+      "Ashutosh Pandey",
+      "DeLiang Wang"
+    ],
+    "summary": "It has been shown that the intelligibility of noisy speech can be improved by\nspeech enhancement algorithms. However, speech enhancement has not been\nestablished as an effective frontend for robust automatic speech recognition\n(ASR) in noisy conditions compared to an ASR model trained on noisy speech\ndirectly. The divide between speech enhancement and ASR impedes the progress of\nrobust ASR systems especially as speech enhancement has made big strides in\nrecent years. In this work, we focus on eliminating this divide with an ARN\n(attentive recurrent network) based time-domain enhancement model. The proposed\nsystem fully decouples speech enhancement and an acoustic model trained only on\nclean speech. Results on the CHiME-2 corpus show that ARN enhanced speech\ntranslates to improved ASR results. The proposed system achieves $6.28\\%$\naverage word error rate, outperforming the previous best by $19.3\\%$\nrelatively.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Time-Domain Speech Enhancement"
+  },
+  {
+    "paper_title": "Speech-Mamba: Long-Context Speech Recognition with Selective State\n  Spaces Models",
+    "arxiv_link": "http://arxiv.org/abs/2409.18654v1",
+    "arxiv_id": "2409.18654v1",
+    "publication_year": 2024,
+    "authors": [
+      "Xiaoxue Gao",
+      "Nancy F. Chen"
+    ],
+    "summary": "Current automatic speech recognition systems struggle with modeling long\nspeech sequences due to high quadratic complexity of Transformer-based models.\nSelective state space models such as Mamba has performed well on long-sequence\nmodeling in natural language processing and computer vision tasks. However,\nresearch endeavors in speech technology tasks has been under-explored. We\npropose Speech-Mamba, which incorporates selective state space modeling in\nTransformer neural architectures. Long sequence representations with selective\nstate space models in Speech-Mamba is complemented with lower-level\nrepresentations from Transformer-based modeling. Speech-mamba achieves better\ncapacity to model long-range dependencies, as it scales near-linearly with\nsequence length.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Speech-Mamba: Long-Context Speech"
+  },
+  {
+    "paper_title": "FASA: a Flexible and Automatic Speech Aligner for Extracting\n  High-quality Aligned Children Speech Data",
+    "arxiv_link": "http://arxiv.org/abs/2406.17926v1",
+    "arxiv_id": "2406.17926v1",
+    "publication_year": 2024,
+    "authors": [
+      "Dancheng Liu",
+      "Jinjun Xiong"
+    ],
+    "summary": "Automatic Speech Recognition (ASR) for adults' speeches has made significant\nprogress by employing deep neural network (DNN) models recently, but\nimprovement in children's speech is still unsatisfactory due to children's\nspeech's distinct characteristics. DNN models pre-trained on adult data often\nstruggle in generalizing children's speeches with fine tuning because of the\nlack of high-quality aligned children's speeches. When generating datasets,\nhuman annotations are not scalable, and existing forced-alignment tools are not\nusable as they make impractical assumptions about the quality of the input\ntranscriptions. To address these challenges, we propose a new forced-alignment\ntool, FASA, as a flexible and automatic speech aligner to extract high-quality\naligned children's speech data from many of the existing noisy children's\nspeech data. We demonstrate its usage on the CHILDES dataset and show that FASA\ncan improve data quality by 13.6$\\times$ over human annotations.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "FASA: a Flexible"
+  },
+  {
+    "paper_title": "Clustering and Mining Accented Speech for Inclusive and Fair Speech\n  Recognition",
+    "arxiv_link": "http://arxiv.org/abs/2408.02582v1",
+    "arxiv_id": "2408.02582v1",
+    "publication_year": 2024,
+    "authors": [
+      "Jaeyoung Kim",
+      "Han Lu",
+      "Soheil Khorram",
+      "Anshuman Tripathi",
+      "Qian Zhang",
+      "Hasim Sak"
+    ],
+    "summary": "Modern automatic speech recognition (ASR) systems are typically trained on\nmore than tens of thousands hours of speech data, which is one of the main\nfactors for their great success. However, the distribution of such data is\ntypically biased towards common accents or typical speech patterns. As a\nresult, those systems often poorly perform on atypical accented speech. In this\npaper, we present accent clustering and mining schemes for fair speech\nrecognition systems which can perform equally well on under-represented\naccented speech. For accent recognition, we applied three schemes to overcome\nlimited size of supervised accent data: supervised or unsupervised\npre-training, distributionally robust optimization (DRO) and unsupervised\nclustering. Three schemes can significantly improve the accent recognition\nmodel especially for unbalanced and small accented speech. Fine-tuning ASR on\nthe mined Indian accent speech using the proposed supervised or unsupervised\nclustering schemes showed 10.0% and 5.3% relative improvements compared to\nfine-tuning on the randomly sampled speech, respectively.",
+    "system_type": "ASR",
+    "metrics": [],
+    "model_name": "Clustering and Mining"
+  },
+  {
+    "paper_title": "On the Role of Style in Parsing Speech with Neural Models",
+    "arxiv_link": "http://arxiv.org/abs/2010.04288v1",
+    "arxiv_id": "2010.04288v1",
+    "publication_year": 2020,
+    "authors": [
+      "Trang Tran",
+      "Jiahong Yuan",
+      "Yang Liu",
+      "Mari Ostendorf"
+    ],
+    "summary": "The differences in written text and conversational speech are substantial;\nprevious parsers trained on treebanked text have given very poor results on\nspontaneous speech. For spoken language, the mismatch in style also extends to\nprosodic cues, though it is less well understood. This paper re-examines the\nuse of written text in parsing speech in the context of recent advances in\nneural language processing. We show that neural approaches facilitate using\nwritten text to improve parsing of spontaneous speech, and that prosody further\nimproves over this state-of-the-art result. Further, we find an asymmetric\ndegradation from read vs. spontaneous mismatch, with spontaneous speech more\ngenerally useful for training parsers.",
+    "system_type": "Unknown",
+    "metrics": [],
+    "model_name": "On the Role"
+  },
+  {
+    "paper_title": "RUSLAN: Russian Spoken Language Corpus for Speech Synthesis",
+    "arxiv_link": "http://arxiv.org/abs/1906.11645v1",
+    "arxiv_id": "1906.11645v1",
+    "publication_year": 2019,
+    "authors": [
+      "Lenar Gabdrakhmanov",
+      "Rustem Garaev",
+      "Evgenii Razinkov"
+    ],
+    "summary": "We present RUSLAN -- a new open Russian spoken language corpus for the\ntext-to-speech task. RUSLAN contains 22200 audio samples with text annotations\n-- more than 31 hours of high-quality speech of one person -- being the largest\nannotated Russian corpus in terms of speech duration for a single speaker. We\ntrained an end-to-end neural network for the text-to-speech task on our corpus\nand evaluated the quality of the synthesized speech using Mean Opinion Score\ntest. Synthesized speech achieves 4.05 score for naturalness and 3.78 score for\nintelligibility on a 5-point MOS scale.",
+    "system_type": "TTS",
+    "metrics": [],
+    "model_name": "RUSLAN: Russian Spoken"
+  }
+]

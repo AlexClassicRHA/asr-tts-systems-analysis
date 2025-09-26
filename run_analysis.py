@@ -12,11 +12,12 @@ from datetime import datetime
 sys.path.append('database_tools')
 sys.path.append('analysis')
 sys.path.append('visualization')
+sys.path.append(os.path.dirname(os.path.abspath("visualization")))
 
 from database_tools.database_config import init_database
 from database_tools.data_loader import DataLoader
 from analysis.data_analysis import DataAnalyzer
-from visualization.visualization import DataVisualizer
+#from visualization.visualization import DataVisualizer
 
 # Настройка логирования
 logging.basicConfig(
@@ -51,8 +52,8 @@ def main():
         
         # Шаг 4: Создание визуализаций
         logging.info("Шаг 4: Создание визуализаций")
-        visualizer = DataVisualizer()
-        visualizer.create_all_visualizations()
+        #visualizer = DataVisualizer()
+        #visualizer.create_all_visualizations()
         
         # Шаг 5: Вывод результатов
         logging.info("Шаг 5: Вывод результатов")

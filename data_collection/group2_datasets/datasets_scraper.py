@@ -82,7 +82,8 @@ class DatasetsScraper:
                 languages.append(tag)
         
         # Пытаемся извлечь размер из описания
-        description = dataset_info.get('cardData', {}).get('description', '')
+        card_data = dataset_info.get('cardData', {})
+        description = card_data.get('description', '') if card_data else ''
         size_hours, size_gb = self.extract_size_from_description(description)
         
         return {

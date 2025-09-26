@@ -1,0 +1,75 @@
+2025-09-26 17:40:33,264 - INFO - Запуск сбора данных с Hugging Face ASR Leaderboard
+2025-09-26 17:40:33,264 - INFO - ====== WebDriver manager ======
+2025-09-26 17:40:33,273 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:40:33,298 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-09-26 17:40:33,312 - INFO - Driver downloading response is 200
+2025-09-26 17:40:33,382 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:40:33,492 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:40:33,513 - INFO - Driver has been saved in cache [/home/codespace/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-09-26 17:41:20,946 - INFO - Запуск сбора данных с Hugging Face ASR Leaderboard
+2025-09-26 17:41:20,946 - INFO - ====== WebDriver manager ======
+2025-09-26 17:41:20,955 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:41:20,968 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-09-26 17:41:20,979 - INFO - Driver downloading response is 200
+2025-09-26 17:41:21,032 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:41:21,158 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:41:21,171 - INFO - Driver has been saved in cache [/home/codespace/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-09-26 17:51:00,831 - INFO - Запуск сбора данных с Hugging Face ASR Leaderboard
+2025-09-26 17:51:00,989 - INFO - ====== WebDriver manager ======
+2025-09-26 17:51:00,998 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:51:01,015 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-09-26 17:51:01,027 - INFO - Driver downloading response is 200
+2025-09-26 17:51:01,080 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:51:01,195 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-26 17:51:01,219 - INFO - Driver has been saved in cache [/home/codespace/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-09-26 17:51:01,260 - ERROR - Ошибка в Selenium парсере: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x5ab852c9c4e3 <unknown>
+#1 0x5ab8529cbc76 <unknown>
+#2 0x5ab8529f2757 <unknown>
+#3 0x5ab8529f1029 <unknown>
+#4 0x5ab852a2fccc <unknown>
+#5 0x5ab852a2f47f <unknown>
+#6 0x5ab852a26de3 <unknown>
+#7 0x5ab8529fc2dd <unknown>
+#8 0x5ab8529fd34e <unknown>
+#9 0x5ab852c5c3e4 <unknown>
+#10 0x5ab852c603d7 <unknown>
+#11 0x5ab852c6ab20 <unknown>
+#12 0x5ab852c61023 <unknown>
+#13 0x5ab852c2f1aa <unknown>
+#14 0x5ab852c856b8 <unknown>
+#15 0x5ab852c85847 <unknown>
+#16 0x5ab852c95243 <unknown>
+#17 0x78566157daa4 <unknown>
+#18 0x78566160ac3c <unknown>
+
+2025-09-26 17:51:01,260 - ERROR - Ошибка при парсинге через Selenium: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x5ab852c9c4e3 <unknown>
+#1 0x5ab8529cbc76 <unknown>
+#2 0x5ab8529f2757 <unknown>
+#3 0x5ab8529f1029 <unknown>
+#4 0x5ab852a2fccc <unknown>
+#5 0x5ab852a2f47f <unknown>
+#6 0x5ab852a26de3 <unknown>
+#7 0x5ab8529fc2dd <unknown>
+#8 0x5ab8529fd34e <unknown>
+#9 0x5ab852c5c3e4 <unknown>
+#10 0x5ab852c603d7 <unknown>
+#11 0x5ab852c6ab20 <unknown>
+#12 0x5ab852c61023 <unknown>
+#13 0x5ab852c2f1aa <unknown>
+#14 0x5ab852c856b8 <unknown>
+#15 0x5ab852c85847 <unknown>
+#16 0x5ab852c95243 <unknown>
+#17 0x78566157daa4 <unknown>
+#18 0x78566160ac3c <unknown>
+
+2025-09-26 17:51:01,260 - INFO - Пытаемся загрузить данные из резервного файла: models_benchmarks.csv
+2025-09-26 17:51:01,260 - INFO - Чтение данных из резервного файла: models_benchmarks.csv
+2025-09-26 17:51:01,391 - INFO - Загружено 61 строк из CSV
+2025-09-26 17:51:01,534 - INFO - Данные также сохранены в huggingface_leaderboard_20250926_175101.csv
+2025-09-26 17:51:01,534 - INFO - Собрано 1 бенчмарков с 61 результатами
+2025-09-26 17:51:01,534 - INFO - Данные сохранены в huggingface_leaderboard_20250926_175101.json
+2025-09-26 17:51:01,534 - INFO - Успешно собраны данные для 1 бенчмарков с 61 результатами
